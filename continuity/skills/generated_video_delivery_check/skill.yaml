@@ -1,0 +1,24 @@
+name: generated_video_delivery_check
+title: Generated video delivery check
+description: Check a generated video against its locked specifications before presenting it as finished, using full-resolution sequential frames, a played watch, and measured specs.
+category: Creation
+include_in_prompt: true
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - message:7cdd1fc2
+  - assistant-msg-c3d02793
+  - assistant-msg-a3b49b99
+  - assistant-msg-db1326a5
+  - assistant-msg-1d626b1e
+  - message:1cc5089c
+  measurement:
+    proxy_metric_id: generated_video_delivery_lock_defects
+    success_criterion: Zero delivered videos in the window are corrected by the user for being post processed instead of directly generated when direct generation was asked for, and every delivered video states whether it is a direct generation or names any post processing beyond denoise and loudness normalisation.
+    window_days: 21
+  needs_review: false
+  rationale: 'On 2026-11-14 the user asked for a direct regeneration of beat 3 with a locked clockwise 90 degree roll (message:1cc5089c). The assistant instead delivered a post processed version, a horizontal source pixel rotated 90 degrees clockwise after the flip and spliced onto a prior vertical opening (assistant-msg-c3d02793). The user caught it in message:7cdd1fc2, asking why the picture was degraded, why the sound did not match, and whether this was generated video or post processing. The assistant admitted in assistant-msg-a3b49b99 that the version was spliced from a rotated horizontal source and two different audio tracks, that this route was void, and that later deliveries would be direct generation only with post processing limited to denoise and loudness. That rule lives only in conversation. No managed skill forbids the substitution: generated_video_delivery_check governs checking a finished video, seedance_shot_director governs prompt writing, and video_generation_retry governs retrying transient failures. The fix adds the direct generation rule to the delivery check skill, the skill that decides what may be presented as finished. Consolidation was reviewed and no merge was made: 9 active managed learned skills, below the 10 trigger, with distinct measured proxies, and the 120 bare tool failures in chunk 2 carry no error detail to ground a change.'
+  review_after: 2026-12-05T07:57:48.269108+00:00
+  reviewed_at: 2026-11-14T07:57:48.269108+00:00
+  run_id: sirun_324e27e5edad49e58b63b029ff008276

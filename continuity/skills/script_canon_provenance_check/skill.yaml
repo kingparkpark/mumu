@@ -1,0 +1,19 @@
+name: script_canon_provenance_check
+title: Established world script provenance check
+description: Check every new setting, object, relationship and motive in a script for an established series world against its approved record before drafting, and cut or flag anything without a source.
+category: Writing
+include_in_prompt: true
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - ~/MEMORY.md
+  measurement:
+    proxy_metric_id: script_canon_invention_corrections
+    success_criterion: Zero delivered scripts in the window are corrected by the user for a setting, object, relationship, motive, or history detail that was invented and presented as established canon.
+    window_days: 21
+  needs_review: false
+  rationale: 'On 2026-10-31 script work repeatedly required user correction for invented canon presented as established, including a bridge and other scene objects with no prior setup, a gift motive inferred from a pleasing image, a falling sign treated as a staged event, a single robot rule, and growth of an approved sign detail over time, and the user also corrected a reset relationship history that ignored an earlier encounter. Memory now records each individual correction, but no existing skill forces a pre-draft source check: generated_video_delivery_check checks a finished video against locked specs, local_script_to_shot_engine converts an already written script into prompts, and local_acting_video_character covers performance, not canon provenance. This skill adds the missing gate by requiring a provenance list, a cause test for every object and motive, and a clear split between approved canon and flagged proposals before drafting.'
+  review_after: 2026-11-22T08:06:23.249923+00:00
+  reviewed_at: 2026-11-01T08:06:23.249923+00:00
+  run_id: sirun_419b101851b24ac9b6b9e0e54f6d54bf

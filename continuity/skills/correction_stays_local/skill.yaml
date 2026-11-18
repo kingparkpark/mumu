@@ -1,0 +1,21 @@
+name: correction_stays_local
+title: Keep a correction local
+description: Keep a single user correction scoped to the scene or line it pointed at, and do not turn it into a standing rule unless the user said it applies generally.
+category: Writing
+include_in_prompt: true
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - ~/MEMORY.md
+  - ~/dreams/alignment/derived/ALIGNMENT_SYNTHESIS.md
+  - 763302c7
+  measurement:
+    proxy_metric_id: correction_rule_freezing_corrections
+    success_criterion: Zero corrections in the window are corrected by the user for turning a single scene correction into a standing rule, and every standing rule added cites the user wording that made it general.
+    window_days: 21
+  needs_review: false
+  rationale: The pattern repeated twice in two days and no existing skill covers it. On 2026-11-03 the assistant froze a scene correction about laughter into a standing red line that MEMORY.md records as deleted, and on 2026-11-04 the assistant froze the user correction that an ending smile was wrong for its content into a blanket rule that endings must never smile in v2 and v3, which the user corrected in message 763302c7 to smile when it fits the emotion and content. The alignment synthesis records the same lesson, that minting a new standing rule after a blunt correction reads as not thinking. script_surgical_revision governs changing unlisted spans inside a delivered document and script_canon_provenance_check governs invented settings, but neither governs turning one correction into a standing rule in memory, a ledger, or a skill. The new skill adds the missing test, which is to treat a correction as local unless the user used general wording, to apply it only where pointed, and to quote the general wording beside any rule that is recorded. The duration failures in the same window were left alone because script_generation_density_budget already prohibits invented per segment seconds and remains inside its measurement window until 2026-11-24, and the learned skill count is 9 active, below the 10 skill consolidation trigger.
+  review_after: 2026-11-26T07:59:04.597853+00:00
+  reviewed_at: 2026-11-05T07:59:04.597853+00:00
+  run_id: sirun_e6a690e02f8c42df9908d8ca25e8798d

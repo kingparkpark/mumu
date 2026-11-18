@@ -1,0 +1,22 @@
+name: local_cinedance_director_system
+title: Local cinedance director system
+description: 专为 Seedance 2.0 及 Higgsfield Seedance 打造的电影级视频提示词导演系统。采用4-D方法论、6种标准焦段镜头决策树、15模块提示词架构、绝对空间物理调度与多镜头连戏锁定机制，规避20+种常见翻车风险，直接输出制片级纯中文视频提示词。当用户需要生成电影级视频提示词、分镜连戏控制、复杂运镜调度或多镜头视频生成时使用。
+include_in_prompt: true
+availability:
+  confidential_vm: true
+  needs_speech: false
+skill_improvement:
+  managed: true
+  status: retired
+  needs_review: false
+  evidence_handles:
+  - ~/workspace/custom-skills/local-cinedance-director-system/SKILL.md
+  - local_cinedance_director_system rev fc23b5d64bbddfc8173d546e7efacdf9b2777f5dec6c489d23fbd86278a13970
+  measurement:
+    proxy_metric_id: retired_skill_active_discovery
+    success_criterion: The retired skill does not appear in active skill discovery and no later session cites it as guidance during the window.
+    window_days: 21
+  rationale: This skill is superseded by the merged seedance_shot_director skill in the same batch, which preserves its focal decision tree, absolute spatial anchors, 15 module prompt order and multi shot continuity rules. Retiring it removes the duplicate discovery entry for the same Seedance prompt task.
+  review_after: 2026-11-25T08:00:40.089835+00:00
+  reviewed_at: 2026-11-04T08:00:40.089835+00:00
+  run_id: sirun_597272a23236408db10f7b336fd5d584

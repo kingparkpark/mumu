@@ -1,0 +1,28 @@
+name: script_surgical_revision
+title: Surgical script revision
+description: Revise a delivered script only where the user pointed, and prove the scope before delivery.
+category: Writing
+include_in_prompt: true
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - '33555e16'
+  - 74a0b2d3
+  - 17899ba9
+  - 25bbca27
+  - 35836dad
+  - dd58af53
+  - 903a53
+  - f54dee1e
+  - c9278e2a
+  - ~/MEMORY.md
+  measurement:
+    proxy_metric_id: script_revision_scope_corrections
+    success_criterion: Zero delivered script revisions in the window are corrected by the user for changing, adding, deleting, or reordering material outside the correction the user pointed at, and every revision lists its pointed span and its changed spans.
+    window_days: 21
+  needs_review: false
+  rationale: 'On 2026-11-01 a pointed correction repeatedly widened into an unrequested revision: six new characters were stocked in one reply and rejected, and a question about a note became a rewritten line plus an added passage, followed by several rounds in which the user narrowed the scope, rejected the added passage, and then said the original passage was fine. The existing script_canon_provenance_check governs whether a new element has an approved source and generated_video_delivery_check governs a finished video, but neither governs edit scope in an already delivered document, so even sourced material can be rewritten without being pointed at. This skill closes that distinct gap with a pointed-span list, a ban on touching unlisted spans, and a span-by-span scope proof plus full-document delivery in the same reply.'
+  review_after: 2026-11-23T08:05:38.343841+00:00
+  reviewed_at: 2026-11-02T08:05:38.343841+00:00
+  run_id: sirun_1e8276e6e4844c19923ccfb37ee2ddc1

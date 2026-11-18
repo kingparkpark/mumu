@@ -1,0 +1,23 @@
+name: local_momo_ink_comedy
+title: Local momo ink comedy
+description: 为AI短片IP「墨团团」锁定《猫和老鼠》式故事风格与夸张表演方式，并据此撰写单集短视频脚本。墨团团是一只由液态墨水构成、能像毒液一样自由变形的小狗，可爆发变身「四臂魔王」形态（四臂、恶魔翅、弯角、兽尾，黑金配色），颈挂青铜铃铛红流苏，视觉为水墨国风×卡通。当用户要求为这个IP写剧本/脚本/分镜/笑点方案、生成搞笑动画短片剧情、每集换对手的连载笑点，或需要把风格锁进视频生成提示词时使用。覆盖：单集脚本撰写、笑点设计、分镜与AI视频提示词转换、风格一致性质检。每集30–60秒，中文脚本。
+category: Creation
+include_in_prompt: true
+availability:
+  confidential_vm: true
+  needs_speech: false
+skill_improvement:
+  managed: true
+  status: active
+  needs_review: false
+  evidence_handles:
+  - message:assistant-msg-169f3a3f-1660-1c07-fe3c-327e3b87d01d1
+  - message:assistant-msg-179e4f61-a2ac-9d29-200c-d504bf3e8527
+  measurement:
+    proxy_metric_id: dialogue_lock_rework_incidents
+    success_criterion: Zero delivered scripts or prompts in the window require rework because assistant-drafted dialogue was marked as user-locked.
+    window_days: 21
+  rationale: 'On 2026-10-14 the agent re-read the EP02-EP05 prompt drafts and found the failure was not isolated: every visitor and echo-shell line in EP02/EP04/EP05 had been drafted by the assistant and never locked word-for-word by the user, yet the drafts'' self-checks claimed locked dialogue, which would have burned un-locked dialogue into generated video. The fix (dialogue-free versions for four episodes plus EP01''s version choice on 2026-10-13) required reworking five delivered files. The defect sits in the skill''s delivery step: section 5''s self-check verifies dialogue quantity and sound effects but has no lock-provenance gate, so locked status could be claimed without any per-line comparison against the user''s locked text. Adding a dialogue-lock provenance checklist to the pre-delivery self-check makes this specific failure mechanically un-passable.'
+  review_after: 2026-11-12T01:40:24.400990+00:00
+  reviewed_at: 2026-10-22T01:40:24.400990+00:00
+  run_id: sirun_91becd87b65047a2b7877d9ecc0a90f4
