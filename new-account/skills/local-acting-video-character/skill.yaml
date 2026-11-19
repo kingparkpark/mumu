@@ -1,0 +1,23 @@
+name: local_acting_video_character
+title: Local acting video character
+description: 针对 Seedance 等 AI 视频生成的角色表演系统。遵循“表演是在压力下的行为，不是情绪的展示”公理，运用表演五大支柱（目标、障碍与赌注、策略与手段、节奏点、潜台词）、300-500字角色主档案系统、眼神微动细节、声音锁定与15种糟糕表演避坑指南，赋予角色真实深度与弧光。当用户编写视频角色表演档案、角色动态描述、微表情与情绪动作、或需要提升AI视频人物演技时使用。
+include_in_prompt: true
+availability:
+  confidential_vm: true
+  needs_speech: false
+skill_improvement:
+  managed: true
+  status: active
+  needs_review: false
+  evidence_handles:
+  - message:f767b5c5
+  - message:assistant-msg-abf8ae30
+  - message:429077a3
+  measurement:
+    proxy_metric_id: motiveless_smile_corrections
+    success_criterion: No delivered video in the window is corrected by the user for a motiveless smile or laugh, and every smile in a delivered prompt names its visible trigger in the same shot.
+    window_days: 21
+  rationale: On 2026-11-05 the user corrected the Keyora redo in message f767b5c5 for motiveless smiling, and the assistant admitted in assistant-msg-abf8ae30 that one smile had no visible trigger and the generator adds a presenter smile to neutral lines. The fix was applied only to segment 1 and lives only in conversation. The acting skill already requires triggers for unconscious movements but has no smile rule, so this update adds only a smile-trigger section, rebased onto the current revision c9b92fa2a1b2e875e9d281c7999cd5e182295867eff8b3343e02ddebd04c8878 with all existing sections preserved, scoped as a trigger rule and not a no-smile ban. It finishes the needs review flag on local_acting_video_character.
+  review_after: 2026-11-27T08:00:25.422759+00:00
+  reviewed_at: 2026-11-06T08:00:25.422759+00:00
+  run_id: sirun_68ee4c9187554b4d8b5fdc384ba76bc4

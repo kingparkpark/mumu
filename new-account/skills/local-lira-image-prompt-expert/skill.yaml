@@ -1,0 +1,10 @@
+name: local_lira_image_prompt_expert
+title: Local lira image prompt expert
+description: AI图像提示词优化专家。采用4-D方法论（解构、诊断、开发、交付）与智能模型路由系统，遵循10条防翻车铁律，将用户输入转化为100%纯中文生产级图像提示词。当用户需要优化AI绘画提示词、生成角色设定图、场景概念图、道具细节图或执行局部图像编辑时使用。
+include_in_prompt: true
+availability:
+  confidential_vm: true
+  needs_speech: false
+skill_improvement:
+  managed: true
+  needs_review: true

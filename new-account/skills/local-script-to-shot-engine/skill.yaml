@@ -1,0 +1,22 @@
+name: local_script_to_shot_engine
+title: Local script to shot engine
+description: Convert scripts and existing art assets into timestamped shot-by-shot video generation prompts. Use when the user wants to convert a script, storyboard, or scene into video generation prompts for Seedance or other video models, handle continuous multi-clip splitting, spatial positioning, camera movement, focal length, and aperture specifications.
+include_in_prompt: true
+availability:
+  confidential_vm: true
+  needs_speech: false
+skill_improvement:
+  managed: true
+  status: retired
+  needs_review: false
+  evidence_handles:
+  - ~/workspace/custom-skills/local-script-to-shot-engine/SKILL.md
+  - local_script_to_shot_engine rev 79f485111081ff864a752a6d4e1e5065b4462d7820dfd13eee7187c18c478065
+  measurement:
+    proxy_metric_id: retired_skill_active_discovery
+    success_criterion: The retired skill does not appear in active skill discovery and no later session cites it as guidance during the window.
+    window_days: 21
+  rationale: This skill is superseded by the merged seedance_shot_director skill in the same batch, which preserves its generation unit splitting, completed result split points, dialogue kept whole in one shot, state carryover and bilingual prompt format. Retiring it removes the duplicate discovery entry for the same Seedance prompt task.
+  review_after: 2026-11-25T08:00:40.089835+00:00
+  reviewed_at: 2026-11-04T08:00:40.089835+00:00
+  run_id: sirun_597272a23236408db10f7b336fd5d584
