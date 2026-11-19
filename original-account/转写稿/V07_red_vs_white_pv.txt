@@ -1,0 +1,2 @@
+# V07_red_vs_white_pv lang=en prob=0.30
+[   4.50 ->    5.00] RIP

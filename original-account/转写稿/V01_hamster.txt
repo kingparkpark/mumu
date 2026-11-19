@@ -1,0 +1,2 @@
+# V01_hamster lang=ko prob=0.40
+[   0.00 ->    0.66] 뭐야
