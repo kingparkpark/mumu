@@ -1,0 +1,426 @@
+{
+ "project": {
+  "title": "狼人EP2·前30秒（剧本原格式版v2）",
+  "scene_type": "custom",
+  "aspect_ratio": "9:16",
+  "duration_est": "30s",
+  "genre": "超写实丧尸求生短剧",
+  "tone": "窒息、紧绷、留白恐怖",
+  "platform": "抖音",
+  "language": "zh-CN"
+ },
+ "director_notes": {
+  "vision": "雨夜封锁区：四人小队摸黑潜入废墟大楼，门前严阵以待；单只丧尸贴脸暴起被击倒，枪声激怒全楼；撤退时殿后队员被天花板触手一秒拖走，只剩手电在积水里旋转。三场各只演一个节拍，观众像跟在队伍里一样被代入。",
+  "constraints": [
+   "画面内不出现任何文字、字幕、水印、标识",
+   "不配乐，只用真实环境声、动作音效与剧本台词",
+   "每场单机位连续镜头，不切镜",
+   "到门前必须严阵以待：扇形散开、枪口对门，无人排队傻站、无人看错方向发呆",
+   "触手拖人后队员彻底消失，地面只剩装备，绝不许人体再入画",
+   "飞溅物只有荧光绿生物浆液，绝无红色血液与断肢",
+   "狼人造型以夜战定妆图为准：暗红围巾（非额头布带），拟人双足穿裤靴，绝不变四足野狼"
+  ],
+  "has_characters": true,
+  "decisions": [
+   "2026-11-19用户指出穿帮后小改剧本：场1第三/四步改扇形严阵以待、狼人视线枪口耳朵全对门；场2开场承接戒备姿势、结尾倒退警戒不转身逃；场3拖人顺序改装备先脱手落地、人再被拖走消失"
+  ],
+  "_meta": {
+   "role": "director",
+   "revision": 2,
+   "director_approved": true
+  }
+ },
+ "script": {
+  "logline": "雨夜暗巷，四个人摸到一扇锈铁门前——门里先扑出一只，枪声又惊醒整栋楼，撤退路上天花板把殿后的人悄无声息地拿走了。",
+  "synopsis": "场1：纵队贴墙潜入，领队握拳停步，四人扇形散开严阵以待停在铁门前，领队低声下令。场2：推门入走廊，侧室铁门后一只丧尸贴脸扑出被狼人与前锋击倒，绿浆溅地；枪声在楼梯井回荡，激起全楼群吼，前锋惊呼后撤。场3：殿后1号倒退警戒，天花板通风井垂下黑色触手缠住脚踝，装备先脱手落地，人被一秒拖入黑暗彻底消失，只剩手电在积水里旋转。",
+  "structure": "三场三拍（潜入戒备→暴起击倒→触手拖人），每场10秒只完成一个节拍，场间以真实尾帧状态接力",
+  "character_bible": [
+   {
+    "name": "狼人",
+    "identity": "48岁拟人狼特战工程师，殿后兜底者；目标是把队伍活着带进去。评估威胁时狼耳先转向声源、视线先于头部；到门前转身向门，视线、枪口、耳朵全对门缝，绝不发呆看别处。暗红围巾、黑夜战服重型背心挂扳手工兵钳、左腕金属表、长尾，双足穿裤靴。",
+    "voice": "本段无台词"
+   },
+   {
+    "name": "领队队员",
+    "identity": "队伍的眼睛与发令者，前锋位置；目标是抢在危险前先发现它。握拳停步、扇形散开后在举枪姿势下压低枪口一寸发令。",
+    "voice": "年轻美式男声，压低收紧带耳麦电流感；场1低语「Sweep left. Keep your lights low.」，场2惊呼「The gunshots attracted more! Fall back, fall back!」"
+   },
+   {
+    "name": "1号队员",
+    "identity": "殿后掩护者；场3倒退警戒时被触手拖走——他的全部表演是警戒、受惊、装备脱手、被拽离地面消失，脸始终是正常人类惊恐，绝不变丧尸。",
+    "voice": "无台词，只有半声被掐断的惊呼"
+   },
+   {
+    "name": "2号/3号队员",
+    "identity": "侧翼警戒者；场1扇形散开时单膝半跪举枪对门，场2与狼人同在戒备位。",
+    "voice": "无台词"
+   },
+   {
+    "name": "变异丧尸（单只）",
+    "identity": "侧室里的一只感染者，灰白干枯、颈部绿血管、浑浊反光眼；目标只有一个：贴脸扑向光源。场2被击倒后不再动。",
+    "voice": "嘶吼，无台词"
+   }
+  ],
+  "scenes": [
+   {
+    "scene_id": 1,
+    "scene_title": "雨夜暗巷潜入·门前严阵以待",
+    "duration": "10s",
+    "location": "暴雨刚歇的深夜封锁区积水窄巷，尽头半掩的废弃大楼生锈铁门",
+    "time_of_day": "深夜",
+    "dialogue": "领队低语：「Sweep left. Keep your lights low.」",
+    "action": "三名队员端枪贴左墙缓缓前移，光柱在十字墙角交叉扫射；狼人殿后警戒，手表微光一闪，侧耳倾听。领队握拳停步，四人立刻扇形半包围散开在铁门前两米：两名队员单膝半跪举枪，领队站立举枪，狼人转身向门站在门侧，视线、枪口、耳朵死死对准门缝，无人排队傻站、无人东张西望。领队举枪姿势下压低枪口一寸低声下令，其余三人纹丝不动保持瞄准。",
+    "camera": {
+     "shot_type": "中景（侧后方跟拍）",
+     "movement": "手持低机位，队伍侧后方1.5米，随脚步缓慢前推伴随微晃",
+     "lens": "35mm，中景深",
+     "lighting": "80%纯黑，唯一光源为四道枪挂冷白手电光柱与绿激光线，丁达尔光束穿雨雾",
+     "composition_notes": "前景砖墙微虚，中景四人清晰；结尾四人扇形对门同框"
+    },
+    "vfx_notes": "细雨穿过光柱，靴底踩水冷白反光",
+    "sound_notes": "耳麦低语、踩水声、雨滴铁皮声、压抑呼吸；无配乐"
+   },
+   {
+    "scene_id": 2,
+    "scene_title": "室内单丧尸暴起击倒·枪声惊楼",
+    "duration": "10s",
+    "location": "废弃大楼幽闭黑暗走廊，半掩侧室铁门，右侧连通多层混凝土楼梯间，地面浅层黑水碎砖",
+    "time_of_day": "深夜",
+    "dialogue": "前锋惊呼：「The gunshots attracted more! Fall back, fall back!」",
+    "action": "开场第一帧四人已是扇形戒备：半跪与站立举枪全对铁门，他们早就等着门里出事。前锋手电扫过侧室铁门，门内骤然露出一双浑浊反光眼，丧尸撞开铁门贴脸扑出；狼人与前锋瞬间开火，枪口焰爆闪、弹壳跳出，丧尸肩胸中弹溅荧光绿浆仰倒积水。枪声在楼梯井剧烈回荡、震落灰尘，死寂一秒后楼上楼下同时爆发数十只丧尸群吼与脚步回响；前锋脸色骤变抬头照向楼梯间上方惊呼，四人保持枪口朝向威胁方向倒退后撤。",
+    "camera": {
+     "shot_type": "第一人称过肩（前锋肩侧后方）",
+     "movement": "28mm广角，丧尸扑出瞬间机位剧烈震颤后退",
+     "lens": "28mm，中深景深",
+     "lighting": "80%纯黑，晃动的手电光柱与枪口焰爆闪为唯一照明",
+     "composition_notes": "走廊与右侧楼梯间入口同框清晰"
+    },
+    "vfx_notes": "荧光绿浆液飞溅；枪声震落天花板灰尘",
+    "sound_notes": "点射声、楼道回音、由远及近的群吼、前锋惊呼；无配乐"
+   },
+   {
+    "scene_id": 3,
+    "scene_title": "触手干净拖人·手电积水旋转",
+    "duration": "10s",
+    "location": "布满生锈铁管的幽暗走廊后段，天花板一处黑洞洞的通风井缺口，地面积水",
+    "time_of_day": "深夜",
+    "dialogue": "（无对白，只有半声被掐断的惊呼）",
+    "action": "1号队员一边倒退撤离一边举枪警戒走廊上方黑暗，光柱在湿墙与管道上扫动。天花板通风井缺口无声垂下沥青质感的粗壮漆黑粘液触手，闪电般缠住他右脚踝；他低头惊呼半声，步枪与手电先脱手砸落积水，整个人被巨力瞬间拽离地面，一秒内拖进头顶漆黑缺口彻底消失，缺口恢复空黑。走廊空无一人，地上只剩步枪与手电，手电在水面疯狂打转后缓缓减速，冷白光柱斜照头顶黑洞。",
+    "camera": {
+     "shot_type": "低角度仰拍固定机位（贴近地面积水高度）",
+     "movement": "24mm广角，机位全程不动",
+     "lens": "24mm，中深景深，地面手电与头顶缺口同时清晰",
+     "lighting": "80%纯黑，全靠队员枪挂手电光柱的剧烈甩动照明",
+     "composition_notes": "人消失后画面只剩装备与旋转光斑，留白收尾"
+    },
+    "vfx_notes": "触手沥青粘液质感；手电旋转光斑扫墙",
+    "sound_notes": "触手破空声、半声惊呼、武器砸水声、耳麦滋滋电流忙音；无配乐"
+   }
+  ],
+  "_meta": {
+   "role": "writer",
+   "revision": 2,
+   "director_approved": true
+  }
+ },
+ "visual_dev": {
+  "palette": [
+   {
+    "name": "枪灯冷白",
+    "hex": "#DCE9F2",
+    "usage": "primary —— 全片唯一动机光源",
+    "visual_cause": "枪挂强光手电冷白光柱，硬光、边缘锐利，穿雨雾成丁达尔光束"
+   },
+   {
+    "name": "暗部纯黑",
+    "hex": "#05070A",
+    "usage": "primary —— 80%画面基底",
+    "visual_cause": "无路灯无环境补光，光源之外自然落黑"
+   },
+   {
+    "name": "荧光绿",
+    "hex": "#7CFC66",
+    "usage": "accent —— 丧尸血管与浆液唯一彩色标记",
+    "visual_cause": "感染组织荧光绿微光与浆液，只出现在丧尸身上"
+   },
+   {
+    "name": "暗红围巾",
+    "hex": "#6E1F24",
+    "usage": "accent —— 狼人身份标记",
+    "visual_cause": "暗红色战术围巾绕颈，受冷白光侧照"
+   }
+  ],
+  "mood": "窒息压迫与留白恐怖。黑暗是战术条件；恐怖不靠血腥，靠速度、失重与一只还在转的手电。",
+  "style_direction": "超写实真人实拍，纪实粗粝，干净低噪不加胶片颗粒；单一动机光源（枪灯）决定全部明暗；人物中景比例不特写。",
+  "style_refs": [],
+  "scene_composition": [
+   {
+    "scene_id": 1,
+    "spatial_layout": "窄巷纵深：左墙是队伍贴靠线，铁门在尽头；结尾四人扇形半包围门前两米，跪姿与站姿错落",
+    "key_props": [
+     "生锈铁门",
+     "四支带枪灯与绿激光的消音步枪"
+    ],
+    "visual_focus": "四道光柱锁死门缝的那一刻——戒备本身就是画面"
+   },
+   {
+    "scene_id": 2,
+    "spatial_layout": "走廊横深：侧室铁门在前方，楼梯间入口在右侧；四人戒备位在门前，丧尸倒地在门与人之间",
+    "key_props": [
+     "半掩侧室铁门",
+     "楼梯间入口"
+    ],
+    "visual_focus": "贴脸扑出的脸与随即仰倒的绿浆——惊吓与回响的落差"
+   },
+   {
+    "scene_id": 3,
+    "spatial_layout": "走廊后段纵深：人居中，头顶通风井缺口在画面上方，地面手电在下方，上下两个支点",
+    "key_props": [
+     "通风井缺口",
+     "掉落的步枪与战术手电"
+    ],
+    "visual_focus": "人消失后只剩旋转光斑——缺席本身是画面"
+   }
+  ],
+  "characters": [
+   {
+    "name": "狼人",
+    "role": "Protagonist",
+    "traits": "拟人狼，灰褐毛发梢带浅霜、口鼻下巴淡灰白、竖耳琥珀眼，暗红围巾绕颈巾尾垂左肩后，哑光黑夜战服、重型多口袋背心挂弹匣与管钳，深黑工装裤、高帮作战靴，左腕老式金属表，长狼尾；两米高，双足",
+    "mood": "沉、稳，全部注意力在威胁方向"
+   },
+   {
+    "name": "领队队员",
+    "role": "Supporting",
+    "traits": "黑战术头盔与透明护目镜，哑光黑夜战服与背心，持带枪灯步枪",
+    "mood": "紧绷精确，发令时枪口只低一寸"
+   },
+   {
+    "name": "1号队员",
+    "role": "Supporting",
+    "traits": "同款黑夜战装具，持步枪；场3唯一入画者",
+    "mood": "警戒到惊恐，半声而止"
+   },
+   {
+    "name": "2号/3号队员",
+    "role": "Supporting",
+    "traits": "同款黑夜战装具",
+    "mood": "扇形戒备的两个支点"
+   },
+   {
+    "name": "变异丧尸（单只）",
+    "role": "Antagonist",
+    "traits": "皮肤灰白干枯、颈部血管泛幽绿微光、瞳孔浑浊反光、破烂城市衣物",
+    "mood": "只有扑向光源的本能"
+   }
+  ],
+  "image_refs": [],
+  "_meta": {
+   "role": "art-director",
+   "revision": 2,
+   "director_approved": true
+  }
+ },
+ "cinematography": {
+  "camera_style": "贴身纪实：机位永远在队伍身边或地面，不上帝视角；观众和队伍共享同一片黑暗",
+  "lighting_philosophy": "单一动机光源原则：全片只有枪挂手电（与枪口焰）一个光源逻辑，光向色温锁定不漂移",
+  "lens_preference": "场1 35mm、场2 28mm、场3 24mm，按空间收窄逐场变广，人始终中景比例",
+  "color_grading": "冷白高光 + 纯黑暗部，低饱和；荧光绿与暗红只作小面积 accent",
+  "movement_language": "handheld intimate",
+  "shot_list": [
+   {
+    "scene_id": 1,
+    "shot_type": "中景",
+    "movement": "手持跟拍缓慢前推",
+    "lens": "35mm",
+    "lighting": "枪灯冷白光柱与绿激光"
+   },
+   {
+    "scene_id": 2,
+    "shot_type": "过肩中景",
+    "movement": "固定过肩，扑出瞬间震颤后退",
+    "lens": "28mm",
+    "lighting": "手电光柱与枪口焰爆闪"
+   },
+   {
+    "scene_id": 3,
+    "shot_type": "低角度仰拍中景",
+    "movement": "固定不动",
+    "lens": "24mm",
+    "lighting": "手电甩动光柱与旋转光斑"
+   }
+  ],
+  "_meta": {
+   "role": "dp",
+   "revision": 2,
+   "director_approved": true
+  }
+ },
+ "sound": {
+  "music_style": "无配乐。声音路线：视频模型原生生成（route=native），只出环境声、动作音效与剧本台词",
+  "music_refs": [],
+  "sfx_notes": [
+   "场1：耳麦低语、踩水、雨滴铁皮、压抑呼吸",
+   "场2：点射、楼梯井回音、震落灰尘、群吼由远及近、前锋惊呼",
+   "场3：触手破空、半声惊呼、武器砸水、耳麦电流忙音"
+  ],
+  "narration_tone": "无旁白",
+  "narration_language": "zh-CN",
+  "silence_usage": "场2枪声后的死寂一秒与场3人消失后的空走廊，是结构元素：响与静的落差才有恐怖",
+  "_meta": {
+   "role": "sound-designer",
+   "revision": 2,
+   "director_approved": true
+  }
+ },
+ "audio_gen": {
+  "route": "native",
+  "_meta": {
+   "role": "sound-designer",
+   "revision": 2
+  }
+ },
+ "vfx": {
+  "techniques": [
+   {
+    "name": "荧光绿浆液",
+    "notes": "只出现在丧尸中弹处，飞溅后落地成滩，不出现红色"
+   },
+   {
+    "name": "黑色粘液触手",
+    "notes": "沥青质感，出击一秒、缠踝、拖人、缩回，缺口恢复空黑"
+   }
+  ],
+  "transitions": [
+   {
+    "name": "尾帧接力硬切",
+    "notes": "场间不做叠化；下一场首帧状态承接上一场真实尾帧"
+   }
+  ],
+  "materials": [
+   {
+    "name": "生锈铁门",
+    "notes": "锈蚀剥落、沉重，被撞开时以铰链摆动表现质量"
+   }
+  ],
+  "_meta": {
+   "role": "vfx",
+   "revision": 2,
+   "director_approved": true
+  }
+ },
+ "storyboard": [
+  {
+   "panel_id": 1,
+   "scene_id": 1,
+   "layout": "tall",
+   "description": "结尾帧：四人扇形半包围在锈铁门前两米，两名队员单膝半跪举枪、领队站立举枪、狼人门侧半侧身举枪，视线枪口全对门缝，四道冷白光柱锁死门缝，绿激光线在湿墙上。",
+   "prompt": "vertical medium shot, special forces team in a fan formation before a rusted iron door in a flooded dark alley at night, two operators kneeling aiming rifles, a two-meter anthropomorphic wolf operator standing sideways aiming at the door seam, cold white weapon light beams locked on the door, green laser lines, photorealistic, clean low noise",
+   "character_ids": [
+    "狼人",
+    "领队队员",
+    "2号/3号队员"
+   ],
+   "camera_notes": "35mm，中景，队伍侧后方1.5米低机位手持，缓慢前推",
+   "lighting": "枪灯冷白唯一光源，80%纯黑",
+   "art_direction": "积水窄巷、湿砖墙、生锈铁管，画面无任何文字标识",
+   "vfx_notes": "细雨穿光柱，踩水反光",
+   "generated_url": "",
+   "approved": true,
+   "refs_used": [
+    "wolf_ep2",
+    "ruins_master"
+   ],
+   "_meta": {
+    "director_approved": true
+   }
+  },
+  {
+   "panel_id": 2,
+   "scene_id": 2,
+   "layout": "tall",
+   "description": "丧尸撞开侧室铁门贴脸扑出的瞬间：前锋过肩视角，狼人与前锋枪口焰爆闪，丧尸肩胸溅荧光绿浆仰倒；右侧楼梯间入口漆黑。",
+   "prompt": "vertical over-shoulder shot in a pitch black ruined corridor, a grey-skinned zombie with glowing green neck veins bursting through a rusted side door face-first, wolf operator and point man firing with orange muzzle flashes, fluorescent green fluid splatter, dark stairwell entrance on the right, photorealistic, clean low noise",
+   "character_ids": [
+    "狼人",
+    "领队队员",
+    "变异丧尸（单只）"
+   ],
+   "camera_notes": "28mm，过肩机位，扑出瞬间震颤后退",
+   "lighting": "手电光柱与枪口焰爆闪，80%纯黑",
+   "art_direction": "剥落墙皮混凝土走廊、浅层黑水碎砖，无文字标识",
+   "vfx_notes": "绿浆飞溅；灰尘被枪声震落",
+   "generated_url": "",
+   "approved": true,
+   "refs_used": [
+    "wolf_ep2",
+    "prev_last_frame"
+   ],
+   "_meta": {
+    "director_approved": true
+   }
+  },
+  {
+   "panel_id": 3,
+   "scene_id": 3,
+   "layout": "tall",
+   "description": "结尾帧：空走廊后段，地上只剩步枪与一只在积水里旋转的战术手电，光斑斜照头顶漆黑通风井缺口，人已彻底消失。",
+   "prompt": "vertical low angle fixed shot in a dark pipe-lined corridor, empty floor with a dropped rifle and a tactical flashlight spinning in shallow black water, its beam sweeping the wall toward a black ceiling vent opening, nobody in frame, photorealistic, clean low noise",
+   "character_ids": [
+    "1号队员"
+   ],
+   "camera_notes": "24mm，低角度仰拍固定，机位不动",
+   "lighting": "手电旋转光斑为唯一光源",
+   "art_direction": "生锈铁管、积水倒影，无文字标识",
+   "vfx_notes": "触手已缩回，缺口空黑",
+   "generated_url": "",
+   "approved": true,
+   "refs_used": [
+    "prev_last_frame"
+   ],
+   "_meta": {
+    "director_approved": true
+   }
+  }
+ ],
+ "file_registry": {
+  "wolf_ep2": {
+   "local_path": "workspace/ep2_full/wolf_ep2.png",
+   "role": "reference_image",
+   "source": "user_locked",
+   "file_id": "PENDING"
+  },
+  "ruins_master": {
+   "local_path": "workspace/ep2_full/ruins.png",
+   "role": "reference_image",
+   "source": "generated",
+   "file_id": "PENDING"
+  },
+  "prev_last_frame": {
+   "local_path": "workspace/ep2_full/user_fmt_v1/<上一场真实末帧>",
+   "role": "reference_image",
+   "source": "generated",
+   "file_id": "PENDING"
+  }
+ },
+ "style_sample": {
+  "scenes": [
+   "ruins_master"
+  ],
+  "characters": [
+   "wolf_ep2"
+  ],
+  "user_decision": "approved_locked",
+  "_meta": {
+   "role": "art-director",
+   "revision": 2
+  }
+ },
+ "subtitles": [],
+ "tuning_notes": {
+  "color": "全片冷白基准，绿与暗红只作 accent",
+  "pacing": "每场一拍；戒备、暴起、拖人各占一场，不抢",
+  "effects": "绿浆只在场2；触手只在场3且一秒完成",
+  "final_confirmation": "待用户判词"
+ }
+}

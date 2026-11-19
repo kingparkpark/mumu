@@ -1,0 +1,5 @@
+file 'd01_raw.mp4'
+file 's02a_final.mp4'
+file 's02b_raw.mp4'
+file 's03a_raw.mp4'
+file 's03b_raw.mp4'
