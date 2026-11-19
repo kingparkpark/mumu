@@ -1,0 +1,26 @@
+name: script_first_production_gate
+title: Script first production gate
+description: Stop video generation, assembly, or re-prompting for any beat that has no approved script covering it, and check the current lock list before generating.
+category: Creation
+include_in_prompt: true
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - message:3c6d3a23
+  - message:2e791efe
+  - assistant-msg-95abf31a
+  - assistant-msg-10f46282
+  - assistant-msg-2c3021cc
+  - message:172ae546
+  - message:2045279d
+  - message:72385ebc
+  measurement:
+    proxy_metric_id: script_first_gate_violations
+    success_criterion: Zero video segments in the window are generated, assembled, or re-prompted without an approved script covering exactly those beats, and every generation request names the approved script version and the lock list it checked.
+    window_days: 21
+  rationale: 'Beats 3 to 4 and then beats 7 onward were produced without an approved script, and the user ordered the script from beat 7 onward plus the full requirements for Gemini in message 3c6d3a23 on 2026-11-16, after the same warning in message 2e791efe. Beats 11 to 16 were then produced without an approved script in assistant-msg-95abf31a. No managed skill gates generation on an approved script: script_canon_provenance_check tests sources before drafting, script_generation_density_budget budgets duration, seedance_shot_director turns an existing script into prompts, and script_surgical_revision limits edits to a delivered script. The same runs also slipped locked details, with camera sets forgotten in message 172ae546, wind dead again in message 2045279d, and the delivery man arriving too early in message 72385ebc, so the gate checks the lock list as well as the script. Consolidation was reviewed at 10 active learned skills and no merge was made because each skill covers a distinct stage with a distinct measured proxy. The full resolution person crop acceptance fix and the measured shake and roll vocabulary were not proposed here because generated_video_delivery_check is inside its window until 2026-12-05 and seedance_shot_director is inside its window until 2026-12-01, and local_lira_image_prompt_expert was left marked for review with no use or success evidence in this window.'
+  review_after: 2026-12-07T09:17:57.714372+00:00
+  reviewed_at: 2026-11-16T09:17:57.714372+00:00
+  needs_review: false
+  run_id: sirun_738ef2970dc24de388438103a306339c

@@ -1,0 +1,25 @@
+name: seedance_shot_director
+title: Seedance shot director
+description: Turn a script into shot by shot Seedance video prompts with locked lens, space, camera and cross cut state, when the user wants generation ready prompts.
+category: Creation
+include_in_prompt: true
+availability:
+  confidential_vm: true
+  needs_speech: false
+skill_improvement:
+  managed: true
+  status: active
+  needs_review: false
+  evidence_handles:
+  - message:a5eb9919
+  - ~/workspace/script-study/分镜写作规范_给GPT学习_v4.md
+  - message:c951a9ad
+  - message:b665157a
+  measurement:
+    proxy_metric_id: storyboard_director_calling_corrections
+    success_criterion: Zero storyboard deliveries in the window are corrected by the user for literal translation without directing, and every delivered scene carries a director statement and every shot carries an intent, a focal choice with a reason, and a logged director addition line.
+    window_days: 21
+  rationale: The 2026-11-10 user diagnosis (message a5eb9919) found GPT storyboards translate literally and never direct, and verification found the director tools existed but the v3 spec never called them. The managed seedance_shot_director skill still has no director statement, per-shot intent, focal reason, director addition log, fake precision ban, draft isolation, active reference rule, density control, or self-contained segment delivery. The v4.1 spec added those controls, and its first GPT run (messages c951a9ad and b665157a) was verified with genuine director intent and focal moves with reasons. This single update carries those controls into the managed skill and points performance work at local_acting_video_character instead of duplicating it. The 106-instruction silent-drop hypothesis was not proposed because the finished film had not arrived for audit, and no comedy skill rebuild was proposed because the 29 new analyses still await the assistant reading them and user verification of the summary.
+  review_after: 2026-12-01T07:58:55.450672+00:00
+  reviewed_at: 2026-11-10T07:58:55.450672+00:00
+  run_id: sirun_6c564e50474d426797b712c64c9947c0

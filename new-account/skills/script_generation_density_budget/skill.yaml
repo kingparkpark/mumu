@@ -1,0 +1,23 @@
+name: script_generation_density_budget
+title: Script generation density budget
+description: Budget the duration of a script or director version from measured generation density before quoting a runtime, when the work will be turned into generated video.
+category: Creation
+include_in_prompt: false
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - assistant-msg-d586124f
+  - assistant-msg-262ab824
+  - assistant-msg-7d8af6de
+  - assistant-msg-9c220611
+  - ~/MEMORY.md
+  measurement:
+    proxy_metric_id: script_duration_estimate_errors
+    success_criterion: Zero delivered scripts or director versions in the window claim a total runtime or a per-segment duration that contradicts the beat count multiplied by the measured generation density, and every runtime claim states the beat count and the density it used.
+    window_days: 21
+  needs_review: false
+  rationale: 'In this window the assistant twice invented runtimes that the measured workflow could not hold: assistant-msg-d586124f proposed merging segments and jump cuts as compression, and assistant-msg-262ab824 claimed 13 segments in 128 seconds, after which the user corrected the fabricated times and the sacrificed journey. assistant-msg-7d8af6de conceded the measured density of one generation holding one beat and about 10 to 15 seconds, with near 30 beats giving a five to six minute floor, and assistant-msg-9c220611 settled director v4 on segment counts only. The existing local_script_to_shot_engine converts an already written script into prompts and splits into 15 second clips, but it contains no beat-count floor, no ban on invented per-segment seconds, and no rule that merging or jump cuts do not create time, so a pre-estimation gate before prompt conversion is the distinct missing check. This skill adds that gate, qualified to the current workflow with a re-measurement rule, rather than restating prompt conversion.'
+  review_after: 2026-11-24T08:00:14.169577+00:00
+  reviewed_at: 2026-11-03T08:00:14.169577+00:00
+  run_id: sirun_e06ab42c250549e9b4d07cce21a16ed4

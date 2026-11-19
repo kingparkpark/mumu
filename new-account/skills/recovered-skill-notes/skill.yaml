@@ -1,0 +1,22 @@
+name: recovered_skill_notes
+title: Recovered skill notes
+description: Local skill notes preserved from the previous layout and awaiting review.
+category: Learning and customization
+include_in_prompt: true
+skill_improvement:
+  managed: true
+  status: retired
+  needs_review: false
+  evidence_handles:
+  - /home/hatch/workspace/custom-skills/recovered-skill-notes/SKILL.md
+  - /home/hatch/workspace/custom-skills/recovered-skill-notes/references/recovered-0d323bd13b107ac0.md
+  - /home/hatch/workspace/custom-skills/recovered-skill-notes/references/recovered-2ff284e8c368d1e0.md
+  - /home/hatch/workspace/custom-skills/recovered-skill-notes/references/recovered-6c8b923378d4e1d4.md
+  measurement:
+    proxy_metric_id: retired_skill_active_discovery
+    success_criterion: The retired note does not appear in active skill discovery and no later session cites it as guidance during the window.
+    window_days: 21
+  rationale: The recovered notes file and its three reference files hold only self improvement run projections from 2026-10-08, 2026-10-09, and 2026-10-10, each stating that no skill surface changed, and the main note contains only boilerplate telling a later reader to move useful methods elsewhere. No reusable method, command, or checklist survives in the note to preserve, so keeping it in active discovery adds a dead entry that a later session could mistake for guidance. Retiring it at its inventory revision finishes the review without deleting the files from disk.
+  review_after: 2026-11-19T00:40:31.223561+00:00
+  reviewed_at: 2026-10-29T00:40:31.223561+00:00
+  run_id: sirun_e5a5c6f404d14185a18b0c029695bfae

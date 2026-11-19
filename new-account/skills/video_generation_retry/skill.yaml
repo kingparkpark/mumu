@@ -1,0 +1,23 @@
+name: video_generation_retry
+title: Video generation retry
+description: Keep a requested video generation going through transient service failures until it succeeds or the user changes the instruction, and stop on a lasting restriction instead of looping it.
+category: Creation
+include_in_prompt: true
+availability:
+  confidential_vm: true
+  needs_speech: false
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - message:assistant-msg-13f3faad-388a-45d5-91ff-b8e3f0ee0af5
+  - message:assistant-msg-c93847f5-de94-c3ae-2e3d-f59896b0813c
+  measurement:
+    proxy_metric_id: video_generation_retry_stops
+    success_criterion: Zero video generation jobs loop or schedule a retry after a lasting non-retryable restriction, zero successes are reported for a non-video output file, and every attempt in the window is counted in the report.
+    window_days: 21
+  needs_review: false
+  rationale: On 2026-11-18 the EP2 revision batch failed 6 of 6 with video_not_available and retryable false, a lasting regional restriction, and retests at 05:00 and 05:57 were still blocked. The assistant first reported only 3 failures because the generation script copied any new file as a success, including 958 byte JSON error files. The current video_generation_retry skill has no stopping rule for a lasting restriction and no rule that an output must be playable video before it counts as a success, so this update adds both while keeping the transient retry rule unchanged. Consolidation of the 11 active learned skills was reviewed and no merge was made because the script cluster covers distinct stages with distinct measured proxies. The Fish Audio connector already documents the verified tag format, the prose-read-aloud failure, and the wolf voice, so no change was needed there, and the 104 bare tool failures carry no error detail to ground a change.
+  review_after: 2026-12-09T07:57:48.515152+00:00
+  reviewed_at: 2026-11-18T07:57:48.515152+00:00
+  run_id: sirun_59fe351ad56b46d9a9bea563ffcb546a
