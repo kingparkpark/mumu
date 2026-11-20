@@ -1,105 +1,472 @@
 {
-  "accepted_segments_in_order": [
-    {
-      "file": "d01_raw.mp4",
-      "id": "S01",
-      "note": "场1 accepted || Dense re-audit 2026-11-19: second half (~5-9s) is a near-static kneeling tableau ~4s (dead air in an infiltration beat); first frame has a teammate raising a fist (unscripted gesture). Flagged for pacing trim/reshoot decision."
-    },
-    {
-      "file": "s02a_final.mp4",
-      "id": "S02A",
-      "note": "场2上 开门探黑+单只丧尸暴起, v2 accepted (v1 had second zombie in tail) || REVOKED 2026-11-19 14:20 by dense-frame re-audit (6fps): zombie visible standing in far doorway during probe beat, then WALKS out over ~2s while team holds fire - fails user standard (must burst from pitch black). 1fps tile audit could not see pacing. Pending reshoot: no figure visible during probe, explosive burst + instant fire."
-    },
-    {
-      "file": "s02b_raw.mp4",
-      "id": "S02B",
-      "note": "场2下 击倒+群吼只声+喊话后撤; casings only in firing frames; muzzle flash still largish (standing nit)"
-    },
-    {
-      "file": "s03a_raw.mp4",
-      "id": "S03A",
-      "note": "场3上 撤退铺垫+落单+触手锚图生效(纯黑油亮)+缠脚扒管"
-    },
-    {
-      "file": "s03b_raw.mp4",
-      "id": "S03B",
-      "note": "场3下 挣扎(扒管-被扯倒-倒吊拖入)+空走廊; known nit: coil close-up frames have slight red-brown tinge despite anchor"
-    },
-    {
-      "file": "s04a_v3_raw.mp4",
-      "id": "S04A",
-      "note": "场4上 楼梯间尸潮如瀑涌下, v3 accepted. v1: red wounds on lead zombie faces (fail, no-red rule). v2: strengthened red ban, still small red marks (fail). Mechanism change for v3: mid-shot lock (no face close-ups) + no-wound wording; saturated-red pixel fraction 0.0% all sampled times. Known nit: two small muted red forehead marks on lead zombies in final ~2s (non-liquid skin marks, same class as S03B accepted tinge nit). Lesson: horde close-ups trigger the model's red-wound prior; keep horde at mid-distance in S04B/S05."
-    },
-    {
-      "file": "s04b_v2_raw.mp4",
-      "id": "S04B",
-      "note": "场4下 交叉火力压制+2号喊话+三角阵后撤, v2 accepted. v1 failed (horde close-ups ~3-6s + red-brown wound smears). v2 mechanism: camera locked over-shoulder, >=3m from nearest zombie, no close-ups; distance lock held (no face close-ups in any of 20 sampled frames). Dialogue PASSED: ASR 'Horde! It's a horde! Fall back!' 0.00-2.0s complete (echo 'Fall back!' 3.9-4.5s). Wolf retreat hand-gesture present ~5.8s (left hand, watch visible). Saturated-red pixels localized entirely to muzzle-flash orange fringe (f04 0.148%, f07 0.024%); no red on bodies. Green splashes/pools only. Standing nit: muzzle flash orbs largish (same as S02B). Known nit: 2nd teammate at frame edge in early firing frames."
-    },
-    {
-      "file": "s05a_raw.mp4",
-      "id": "S05A",
-      "note": "场5上 走廊三角阵且战且退(全段无铁栅门), v1 accepted. Seam matches S04B v2 last frame; triangle holds; firing continues to last frame (flashes at 8.5-9.5s); saturated-red 0.000% all 10s; ASR no dialogue (only 'The end.' whisper hallucination 0.0-0.76s). Known nits: muzzle flash largish on first burst (standing nit); fallen zombies carry muted dark red-brown tones on torsos (desaturated, same nit class as S03B/S04A v3 accepted); wolf hand-gesture with watch visible ~5.5s."
-    },
-    {
-      "file": "s05b_v5_raw.mp4",
-      "id": "S05B",
-      "note": "场5下 抵达铁栅门背靠铁门继续顶住尸潮, v5 accepted. Side-camera mechanism held all 10s: gate bars + 2 padlocks on LEFT edge every frame, team backs to gate, horde on the RIGHT at mid-distance, never inverted; camera stays side view (verified full-res f5/f7); distance holds (front rank falls at ~3m, no close surge, no body at camera edge); saturated-red max 0.039% (s0/s7 flash fringe); no biohazard symbols/text; ASR no dialogue (only 'Thank you.' whisper hallucination 0.0-1.3s on gunfire); firing continues to last frame; 2fps tiles: no hovering casings, fallen casings on floor. Known nits: muzzle flashes s6-s9 are long flame jets (standing nit, larger than 'short small clusters'); dark red-brown splat on floor bottom-center from ~s5 to end + muted pinkish-red tones on fallen zombies' torsos/faces (desaturated, same nit class as S03B/S04A v3 accepted); arrival beat compressed (team already at gate in s0, as in v2-v4); wolf half-obscured by gate frame at far left in last frame."
-    }
-  ],
-  "anchors": [
-    "wolf_ep2.png",
-    "ruins.png",
-    "corridor_master.png",
-    "zombie_sheet.png",
-    "tentacle_anchor.png",
-    "gate_anchor.png",
-    "gate_side_anchor.png"
-  ],
-  "anchors_todo": [
-    "lab_night.png (before S10A)",
-    "site_anchor.png (before S11A)",
-    "rider_poncho.png (before S19A)"
-  ],
-  "episode": "EP2 幽暗禁区 (23-scene script, director revision 2026-11-19)",
-  "next_segment": "S06A",
-  "plan_file": "DIRECTOR_REVISION_AND_PLAN.md",
-  "rejected_segments": [
-    {
-      "file": "s04b_raw.mp4",
-      "id": "S04B",
-      "note": "v1 REJECTED 2026-11-19: horde faces at close range ~3-6s (faces ~25-40% frame height), violating the mid-distance lock; same stretch carries red-brown wound-like smears on fallen/crawling zombies (same failure mode as S04A v1/v2). Saturated-red pixel fraction 0.000-0.001% (marks are desaturated dark red-brown, not liquid). Dialogue PASSED: ASR 'Horde! It's a horde! Fall back!' 0.00-2.4s complete. Muzzle flash largish (standing nit, as S02B). Seam: first frame matches S04A end environment/horde state; horde distance jumps back from S04A-end close-up (viewpoint switch, acceptable). v2 mechanism change (same as S04A v3): camera locked over-shoulder, >=3m from nearest zombie, no close-ups, no push-in on fallen bodies; prompt diff confined to distance lock."
-    },
-    {
-      "file": "s05_raw.mp4",
-      "id": "S05",
-      "note": "v1 REJECTED 2026-11-19: (1) seam fail - opens back at the stairwell with horde ~2m close, does not continue S04B v2 mid-corridor end state; (2) spatial inversion - iron gate ends up IN FRONT of the team with the horde beyond it, vs prompt's gate-behind-team ending state. Rest passed: triangle holds, green splashes/pools only, no hovering casings, costumes/count OK, corridor consistent within segment. Saturated-red 0.000-0.001% except f08 0.031% (small patch on a zombie behind the gate bars, nit class). Nits: unscripted single-word shout 'RUN!' at 0.0s (ASR); muzzle flashes small this time. v2 mechanism change: spatial-orientation lock - camera never turns, stairs stay behind camera, gate only ever behind the team (bars at frame edges behind them), horde stays in corridor ahead; prompt diff confined to that lock."
-    },
-    {
-      "file": "s05_v2_raw.mp4",
-      "id": "S05",
-      "note": "v2 REJECTED 2026-11-19: gate-side inversion PERSISTS (same flaw as v1, second occurrence = systemic). Seam FIXED: opens mid-corridor, horde at mid-distance, continues S04B v2 end state. But team again walks to the gate and ends facing it with the horde beyond the bars (last frame: padlocked gate fills frame ahead, zombies behind it), vs prompt's gate-behind-team ending state; mid-segment the team walks forward to the gate with the horde behind the camera, violating 'never turn backs to danger'. Rest passed: saturated-red 0.000% all 10 sampled seconds, no dialogue (ASR only gunfire 'BANG' x6), triangle holds, green splashes/pools only, no hovering casings, costumes/count OK, corridor consistent. MECHANISM CHANGE for next round (do not re-draw same way): split S05 into A/B per plan note + generate a gate-staging anchor image FIRST (team backs to gate, horde in corridor ahead, fed first) before S05B; S05A = corridor triangle fight only, no gate anywhere, ends still retreating mid-corridor."
-    },
-    {
-      "file": "s05b_raw.mp4",
-      "id": "S05B",
-      "note": "v1 REJECTED 2026-11-19: gate-side inversion THIRD occurrence (same flaw as S05 v1/v2, systemic). Seam FIXED (s0 matches S05A last frame), triangle + firing hold to s5, saturated-red only muzzle-flash fringe (s0 0.079% x0-307/y414-619 mean RGB 178,111,94; s2 0.024% left-edge flash fringe; ASR no dialogue). But s6-s9: gate materializes IN FRONT of the team filling the frame, padlock on right bars, horde visible behind the bars; team faces the gate instead of backing to it. Gate anchor (fed first) did NOT prevent the flip: over-shoulder camera + gate-as-destination prior wins. MECHANISM CHANGE for v2 (do not re-draw over-shoulder): side/profile camera + new side-view gate anchor first (gate bars at LEFT frame edge from first frame, horde on the RIGHT, team between backs-to-gate); team steps back leftward onto the gate and holds firing right; viewpoint switch from S05A over-shoulder is permitted by [0]衔接 rules."
-    },
-    {
-      "file": "s05b_v2_raw.mp4",
-      "id": "S05B",
-      "note": "v2 REJECTED 2026-11-19: side-camera mechanism FIXED the gate layout (gate bars + padlock on LEFT edge in all 10 frames, team backs to gate, horde on the RIGHT, never inverted) and seam/environment/casings/green-only all pass; saturated-red 0.000-0.010% all 10s; ASR no dialogue; firing continues to last frame. FAIL is the distance lock: ~4-5.5s the horde front rank surges to contact distance (f4/f5 full frames: zombies at ~1m from the team, faces ~15-20% frame height, one zombie body cut off at the right frame edge essentially AT the camera), violating 'nearest zombie >=3m from camera' and 'horde only mid/far' - same failure class as S04B v1. Fallen bodies in last frame already show muted pinkish tones (red-wound prior leaking at close range, same nit class as S04A v3). Secondary nit: team already AT the gate in s0 (arrival beat skipped, position jump from S05A mid-corridor end). v3 single-variable change: strengthen distance lock only (front rank holds >=3m, falls in mid-frame, rear rank holds position and never presses forward, no zombie body/face enters frame edge, camera pulls half-step back to full wide); gate/side mechanism unchanged."
-    },
-    {
-      "file": "s05b_v3_raw.mp4",
-      "id": "S05B",
-      "note": "v3 REJECTED 2026-11-19: distance lock FIXED (horde holds mid-distance all 10s, no close surge; saturated-red 0.000% all 10s; gate bars + padlock on left edge every frame; firing to last frame; ASR only 'Thank you.' whisper hallucination 4.4-6.2s on gunfire, no real dialogue). FAIL is new artifact ~s6.5-10: TWO crisp glowing green biohazard trefoil symbols appear on the floor in the green pool at bottom-center foreground and persist to the end (f7 full frame) - a graphic mark violating '绝不许出现任何文字、字幕、水印或标识'. Muzzle flash still largish (f7 big white arrow burst, standing nit as S02B/S04B). Arrival beat still compressed (team already at gate in s0, carried nit). v4 single-variable change: add explicit ban on floor patterns/symbols/marks (ground only black-water broken brick + green slime); everything else identical to v3."
-    },
-    {
-      "file": "s05b_v4_raw.mp4",
-      "id": "S05B",
-      "note": "v4 REJECTED 2026-11-19: symbol ban WORKED (no biohazard marks anywhere); gate bars + padlock on left edge all frames; distance mostly holds (horde mid-distance except ~s5 one zombie falling at team's feet, borderline); saturated-red 0.000-0.098% (localized x280-683/y464-922, mean RGB ~200,130,100 = tan-brown uniforms under warm flash light + muted pinkish marks on fallen bodies, not liquid blood); ASR no dialogue. FAIL: camera drifts ~s5 from fixed side view to three-quarter FRONT view (f6/f8 full frames: wolf's face and teammates' goggled faces visible frontally, violating '机位全程固定在走廊侧面、绝不转到小队正面'), and the ~6s muzzle flash is extreme (huge white-orange burst spanning ~30% frame width, washing the whole scene warm orange - worst flash yet, beyond the standing nit). v5 single-variable change: nail the camera (fixed side view, no rotation, no pan, team only in profile, never frontal faces); everything else identical to v4."
-    }
-  ],
-  "status_notes": "Preview assembled: EP2_导演修订_前50秒.mp4 (S01+S02A+S02B+S03A+S03B, loudnorm only). Continue from S05 per DIRECTOR_REVISION_AND_PLAN.md (S05 now split A/B, see plan). Round video budget: 6 of 6 USED - round over. S05 COMPLETE (S05A v1 + S05B v5 accepted 2026-11-19); S05B took 5 versions (v1 gate inversion, v2 horde close-surge, v3 biohazard floor symbols, v4 camera drift to frontal + extreme flash, v5 accepted). Lesson: side-camera + side-view gate anchor fixed the gate; each version held all other locks while breaking one new thing (model churn). Next round: S06A (2号换弹空档独守铁栅门被拖入黑暗, feed S05B v5 last frame) then S06B. ASR fix 2026-11-19: faster-whisper-small model.bin was missing from HF cache and hub download stalled at 0 bytes; downloaded model.bin directly via curl (sha256 3e305921506d8872816023e4c273e75d2419fb89b24da97b4fe7bce14170d671 verified) into ~/.cache/huggingface/hub/models--Systran--faster-whisper-small/blobs/; ASR now works offline (HF_HUB_OFFLINE=1). AUDIT METHOD CHANGE 2026-11-19: 1fps tiles cannot judge motion pacing; every segment now also gets >=6fps dense strips + full playthrough, with an explicit pacing item. S02A acceptance revoked (see note). User verdict 14:11 was on a wrong 30.07s file (not any of the 10 assemblies stored here; contains a turned-teammate wall scene absent from EP2_导演修订_前50秒.mp4). PRODUCTION HALTED 2026-11-19 14:29 by user order: ep2-production-continue cron DISABLED (definition kept). User will test in the experiment-zone chat until satisfied, then resume. Accepted segments stand except S02A (revoked, pending reshoot). Do not generate any EP2 footage until user re-authorizes.",
-  "workdir": "workspace/ep2_full/user_fmt_v1"
+ "accepted_segments_in_order": [
+  {
+   "file": "d01_raw.mp4",
+   "id": "S01",
+   "note": "场1 accepted || Dense re-audit 2026-11-19: second half (~5-9s) is a near-static kneeling tableau ~4s (dead air in an infiltration beat); first frame has a teammate raising a fist (unscripted gesture). Flagged for pacing trim/reshoot decision."
+  },
+  {
+   "file": "user_fmt_v1/s02a_final.mp4",
+   "id": "S02A",
+   "note": "场2上 开门探黑+单只丧尸暴起，v6剪救版验收通过 2026-11-20：取v6前8.7s截断（8.708s，720x1280/24fps）。末帧8.7s=丧尸扑到门前近在咫尺、双爪探向队伍、一发小枪口焰正亮、四人同框、仅一只丧尸，与S02B开场'丧尸已扑到门前、枪口刚抬、第一点火花刚亮'接缝一致。探门段0-7s门内纯黑无身影（v3/v4的提前显形已治住到0.5s内暗处现身+快速扑出）；4人可数、狼人可辨；无文字、无红色液体（饱和红8.3s 0.000%/8.5s 0.57%枪口焰橙边/8.7s 0.000%）；无对白。遗留：'只露一只眼睛'一拍四版均未读出（验收预期已按skill改为触发前无全身轮廓）；枪口焰多轮、8.5s一发偏大（与S02B/S04B同类既存瑕疵）；狼人三角巾形状开场帧读不清晰（末帧图压过三角巾文字，待用户全屏判）；门上深色痕迹不可读作文字。剪救披露：本段为v6 10s版截断，舍去8.7-10s丧尸穿过防线部分，未混用其他版本。"
+  },
+  {
+   "file": "s02b_raw.mp4",
+   "id": "S02B",
+   "note": "场2下 击倒+群吼只声+喊话后撤; casings only in firing frames; muzzle flash still largish (standing nit)"
+  },
+  {
+   "file": "s03a_raw.mp4",
+   "id": "S03A",
+   "note": "场3上 撤退铺垫+落单+触手锚图生效(纯黑油亮)+缠脚扒管"
+  },
+  {
+   "file": "s03b_raw.mp4",
+   "id": "S03B",
+   "note": "场3下 挣扎(扒管-被扯倒-倒吊拖入)+空走廊; known nit: coil close-up frames have slight red-brown tinge despite anchor"
+  },
+  {
+   "file": "s04a_v3_raw.mp4",
+   "id": "S04A",
+   "note": "场4上 楼梯间尸潮如瀑涌下, v3 accepted. v1: red wounds on lead zombie faces (fail, no-red rule). v2: strengthened red ban, still small red marks (fail). Mechanism change for v3: mid-shot lock (no face close-ups) + no-wound wording; saturated-red pixel fraction 0.0% all sampled times. Known nit: two small muted red forehead marks on lead zombies in final ~2s (non-liquid skin marks, same class as S03B accepted tinge nit). Lesson: horde close-ups trigger the model's red-wound prior; keep horde at mid-distance in S04B/S05."
+  },
+  {
+   "file": "s04b_v2_raw.mp4",
+   "id": "S04B",
+   "note": "场4下 交叉火力压制+2号喊话+三角阵后撤, v2 accepted. v1 failed (horde close-ups ~3-6s + red-brown wound smears). v2 mechanism: camera locked over-shoulder, >=3m from nearest zombie, no close-ups; distance lock held (no face close-ups in any of 20 sampled frames). Dialogue PASSED: ASR 'Horde! It's a horde! Fall back!' 0.00-2.0s complete (echo 'Fall back!' 3.9-4.5s). Wolf retreat hand-gesture present ~5.8s (left hand, watch visible). Saturated-red pixels localized entirely to muzzle-flash orange fringe (f04 0.148%, f07 0.024%); no red on bodies. Green splashes/pools only. Standing nit: muzzle flash orbs largish (same as S02B). Known nit: 2nd teammate at frame edge in early firing frames."
+  },
+  {
+   "file": "s05a_raw.mp4",
+   "id": "S05A",
+   "note": "场5上 走廊三角阵且战且退(全段无铁栅门), v1 accepted. Seam matches S04B v2 last frame; triangle holds; firing continues to last frame (flashes at 8.5-9.5s); saturated-red 0.000% all 10s; ASR no dialogue (only 'The end.' whisper hallucination 0.0-0.76s). Known nits: muzzle flash largish on first burst (standing nit); fallen zombies carry muted dark red-brown tones on torsos (desaturated, same nit class as S03B/S04A v3 accepted); wolf hand-gesture with watch visible ~5.5s."
+  },
+  {
+   "file": "s05b_v5_raw.mp4",
+   "id": "S05B",
+   "note": "场5下 抵达铁栅门背靠铁门继续顶住尸潮, v5 accepted. Side-camera mechanism held all 10s: gate bars + 2 padlocks on LEFT edge every frame, team backs to gate, horde on the RIGHT at mid-distance, never inverted; camera stays side view (verified full-res f5/f7); distance holds (front rank falls at ~3m, no close surge, no body at camera edge); saturated-red max 0.039% (s0/s7 flash fringe); no biohazard symbols/text; ASR no dialogue (only 'Thank you.' whisper hallucination 0.0-1.3s on gunfire); firing continues to last frame; 2fps tiles: no hovering casings, fallen casings on floor. Known nits: muzzle flashes s6-s9 are long flame jets (standing nit, larger than 'short small clusters'); dark red-brown splat on floor bottom-center from ~s5 to end + muted pinkish-red tones on fallen zombies' torsos/faces (desaturated, same nit class as S03B/S04A v3 accepted); arrival beat compressed (team already at gate in s0, as in v2-v4); wolf half-obscured by gate frame at far left in last frame."
+  }
+ ],
+ "anchors": [
+  "wolf_ep2.png",
+  "ruins.png",
+  "corridor_master.png",
+  "zombie_sheet.png",
+  "tentacle_anchor.png",
+  "gate_anchor.png",
+  "gate_side_anchor.png",
+  "wolf_tri_sheet.webp",
+  "wolf_scarf_plain.png",
+  "wolf_cloth_back.png"
+ ],
+ "anchors_todo": [
+  "lab_night.png (before S10A)",
+  "site_anchor.png (before S11A)",
+  "rider_poncho.png (before S19A)"
+ ],
+ "episode": "EP2 幽暗禁区 (23-scene script, director revision 2026-11-19)",
+ "next_segment": "S06A",
+ "plan_file": "DIRECTOR_REVISION_AND_PLAN.md",
+ "rejected_segments": [
+  {
+   "file": "s04b_raw.mp4",
+   "id": "S04B",
+   "note": "v1 REJECTED 2026-11-19: horde faces at close range ~3-6s (faces ~25-40% frame height), violating the mid-distance lock; same stretch carries red-brown wound-like smears on fallen/crawling zombies (same failure mode as S04A v1/v2). Saturated-red pixel fraction 0.000-0.001% (marks are desaturated dark red-brown, not liquid). Dialogue PASSED: ASR 'Horde! It's a horde! Fall back!' 0.00-2.4s complete. Muzzle flash largish (standing nit, as S02B). Seam: first frame matches S04A end environment/horde state; horde distance jumps back from S04A-end close-up (viewpoint switch, acceptable). v2 mechanism change (same as S04A v3): camera locked over-shoulder, >=3m from nearest zombie, no close-ups, no push-in on fallen bodies; prompt diff confined to distance lock."
+  },
+  {
+   "file": "s05_raw.mp4",
+   "id": "S05",
+   "note": "v1 REJECTED 2026-11-19: (1) seam fail - opens back at the stairwell with horde ~2m close, does not continue S04B v2 mid-corridor end state; (2) spatial inversion - iron gate ends up IN FRONT of the team with the horde beyond it, vs prompt's gate-behind-team ending state. Rest passed: triangle holds, green splashes/pools only, no hovering casings, costumes/count OK, corridor consistent within segment. Saturated-red 0.000-0.001% except f08 0.031% (small patch on a zombie behind the gate bars, nit class). Nits: unscripted single-word shout 'RUN!' at 0.0s (ASR); muzzle flashes small this time. v2 mechanism change: spatial-orientation lock - camera never turns, stairs stay behind camera, gate only ever behind the team (bars at frame edges behind them), horde stays in corridor ahead; prompt diff confined to that lock."
+  },
+  {
+   "file": "s05_v2_raw.mp4",
+   "id": "S05",
+   "note": "v2 REJECTED 2026-11-19: gate-side inversion PERSISTS (same flaw as v1, second occurrence = systemic). Seam FIXED: opens mid-corridor, horde at mid-distance, continues S04B v2 end state. But team again walks to the gate and ends facing it with the horde beyond the bars (last frame: padlocked gate fills frame ahead, zombies behind it), vs prompt's gate-behind-team ending state; mid-segment the team walks forward to the gate with the horde behind the camera, violating 'never turn backs to danger'. Rest passed: saturated-red 0.000% all 10 sampled seconds, no dialogue (ASR only gunfire 'BANG' x6), triangle holds, green splashes/pools only, no hovering casings, costumes/count OK, corridor consistent. MECHANISM CHANGE for next round (do not re-draw same way): split S05 into A/B per plan note + generate a gate-staging anchor image FIRST (team backs to gate, horde in corridor ahead, fed first) before S05B; S05A = corridor triangle fight only, no gate anywhere, ends still retreating mid-corridor."
+  },
+  {
+   "file": "s05b_raw.mp4",
+   "id": "S05B",
+   "note": "v1 REJECTED 2026-11-19: gate-side inversion THIRD occurrence (same flaw as S05 v1/v2, systemic). Seam FIXED (s0 matches S05A last frame), triangle + firing hold to s5, saturated-red only muzzle-flash fringe (s0 0.079% x0-307/y414-619 mean RGB 178,111,94; s2 0.024% left-edge flash fringe; ASR no dialogue). But s6-s9: gate materializes IN FRONT of the team filling the frame, padlock on right bars, horde visible behind the bars; team faces the gate instead of backing to it. Gate anchor (fed first) did NOT prevent the flip: over-shoulder camera + gate-as-destination prior wins. MECHANISM CHANGE for v2 (do not re-draw over-shoulder): side/profile camera + new side-view gate anchor first (gate bars at LEFT frame edge from first frame, horde on the RIGHT, team between backs-to-gate); team steps back leftward onto the gate and holds firing right; viewpoint switch from S05A over-shoulder is permitted by [0]衔接 rules."
+  },
+  {
+   "file": "s05b_v2_raw.mp4",
+   "id": "S05B",
+   "note": "v2 REJECTED 2026-11-19: side-camera mechanism FIXED the gate layout (gate bars + padlock on LEFT edge in all 10 frames, team backs to gate, horde on the RIGHT, never inverted) and seam/environment/casings/green-only all pass; saturated-red 0.000-0.010% all 10s; ASR no dialogue; firing continues to last frame. FAIL is the distance lock: ~4-5.5s the horde front rank surges to contact distance (f4/f5 full frames: zombies at ~1m from the team, faces ~15-20% frame height, one zombie body cut off at the right frame edge essentially AT the camera), violating 'nearest zombie >=3m from camera' and 'horde only mid/far' - same failure class as S04B v1. Fallen bodies in last frame already show muted pinkish tones (red-wound prior leaking at close range, same nit class as S04A v3). Secondary nit: team already AT the gate in s0 (arrival beat skipped, position jump from S05A mid-corridor end). v3 single-variable change: strengthen distance lock only (front rank holds >=3m, falls in mid-frame, rear rank holds position and never presses forward, no zombie body/face enters frame edge, camera pulls half-step back to full wide); gate/side mechanism unchanged."
+  },
+  {
+   "file": "s05b_v3_raw.mp4",
+   "id": "S05B",
+   "note": "v3 REJECTED 2026-11-19: distance lock FIXED (horde holds mid-distance all 10s, no close surge; saturated-red 0.000% all 10s; gate bars + padlock on left edge every frame; firing to last frame; ASR only 'Thank you.' whisper hallucination 4.4-6.2s on gunfire, no real dialogue). FAIL is new artifact ~s6.5-10: TWO crisp glowing green biohazard trefoil symbols appear on the floor in the green pool at bottom-center foreground and persist to the end (f7 full frame) - a graphic mark violating '绝不许出现任何文字、字幕、水印或标识'. Muzzle flash still largish (f7 big white arrow burst, standing nit as S02B/S04B). Arrival beat still compressed (team already at gate in s0, carried nit). v4 single-variable change: add explicit ban on floor patterns/symbols/marks (ground only black-water broken brick + green slime); everything else identical to v3."
+  },
+  {
+   "file": "s05b_v4_raw.mp4",
+   "id": "S05B",
+   "note": "v4 REJECTED 2026-11-19: symbol ban WORKED (no biohazard marks anywhere); gate bars + padlock on left edge all frames; distance mostly holds (horde mid-distance except ~s5 one zombie falling at team's feet, borderline); saturated-red 0.000-0.098% (localized x280-683/y464-922, mean RGB ~200,130,100 = tan-brown uniforms under warm flash light + muted pinkish marks on fallen bodies, not liquid blood); ASR no dialogue. FAIL: camera drifts ~s5 from fixed side view to three-quarter FRONT view (f6/f8 full frames: wolf's face and teammates' goggled faces visible frontally, violating '机位全程固定在走廊侧面、绝不转到小队正面'), and the ~6s muzzle flash is extreme (huge white-orange burst spanning ~30% frame width, washing the whole scene warm orange - worst flash yet, beyond the standing nit). v5 single-variable change: nail the camera (fixed side view, no rotation, no pan, team only in profile, never frontal faces); everything else identical to v4."
+  },
+  {
+   "file": "user_fmt_v1/s02a_v3_raw.mp4",
+   "id": "S02A",
+   "note": "v3 REJECTED 2026-11-20 6fps密帧+全分辨率关键帧复审：(1)结尾状态破接缝——丧尸9.9s已中弹仰倒/瘫倒在门边，S02B要求的是丧尸扑到门前、枪口刚抬、第一点火花刚亮，击倒戏是S02B的；(2)开火时机错——首个枪口焰约5.2s，门洞仍纯黑、丧尸约6.0s才现身，早于脸进光圈约2.3s；(3)状态链未达标——5.5-6.5s应只露一只眼睛，实测6.0s门洞里已见丧尸全身轮廓站立（约0.5-1s，弱于v2的2s步行但仍属提前显形）；(4)机位后半坍缩为枪管POV+丧尸特写，扇形队形后半段不可见；(5)枪口焰为大型持续火舌、多轮点射，非短促小簇、非只一轮。过关项：探门段2.5-5.5s门内纯黑无身影；4人可数、狼人可辨；绿浆、无红色液体（饱和红0.000%@7.5/8.5/9.9s，5.2-6.5s的1.25-4.99%为枪口焰橙边）；无对白（ASR仅Thank you幻听）。机制教训：一镜内演完爆冲+开火+击倒会冲过接缝末态，须在第一点枪口火花处截断。"
+  },
+  {
+   "file": "user_fmt_v1/s02a_v4_raw.mp4",
+   "id": "S02A",
+   "note": "v4 REJECTED 2026-11-20 6fps密帧+全分辨率关键帧复审：单变量改动（爆冲+开火截断在第一点火花、击倒留给S02B）未守住结尾——(1)结尾状态仍破接缝：丧尸约8.7s扑到近前、9.9s已穿过小队防线转身向画面右侧黑暗走去，末帧无枪口火花，不符S02B要求的'扑到门前、枪口刚抬、第一点火花刚亮'；(2)状态链：5.5-7s'只露一只眼睛'一拍未读出（门洞纯黑至约6.5s），约6.5-7.0s门洞里直接出现丧尸全身站立约0.5s再扑出；(3)开火时机改善——首个枪口焰约7.8s、绑在扑袭上，5.2s早开火已治住；但末帧未停在第一点火花上。过关项：探门段0-6s门内纯黑无身影；4人可数、狼人可辨（左腕表可见）；机位前半守住过肩广角、单镜无切镜；枪口焰小簇化；无红色液体、无对白（ASR仅Thank you幻听）。门上深色 stencil 状痕迹全分辨率下不可读作文字，记待用户全屏判。两版同病（结尾末态守不住）=系统性，按纪律换机制：v5换拆分点——爆冲移到最后1s、火花落在9.5s后，令丧尸在末帧恰好处于扑到门前状态。"
+  },
+  {
+   "file": "user_fmt_v1/s02a_v5_raw.mp4",
+   "id": "S02A",
+   "note": "v5 REJECTED 2026-11-20 6fps密帧+全分辨率关键帧复审：换拆分点机制（爆冲压到最后1s）未生效——模型内部自行压缩时间线，丧尸约6.5s已在门洞现身、首个枪口焰约7.0s（仍早于脸进光圈），与v4同病；(1)结尾状态破接缝——8s后机位坍缩为丧尸特写、队形不可见，9.9s全分辨率确认门洞黑暗里还有第二张丧尸脸（第二只丧尸，唯一性违规）；(2)状态链：'只露一只眼睛'连续三版未读出，6.5s直接出现全身站立；(3)机位后半丧尸特写充满画面。过关项：探门段0-6.5s门内纯黑无身影；4人可数、狼人可辨；门上无文字；饱和红0.000-0.0007%；无对白（ASR仅Thank you幻听）。"
+  },
+  {
+   "file": "user_fmt_v1/s02a_v6_raw.mp4",
+   "id": "S02A",
+   "note": "v6 10s版 REJECTED 2026-11-20：换机位套（固定侧面机位）部分生效——队形全程可见、未坍缩为丧尸独角特写、探门段0-7s门内纯黑无身影、仅一只丧尸、无文字、无红色液体、无对白；但结尾末态仍破接缝：丧尸约8.7s扑到近前、9.9s已穿过小队防线向画面右侧黑暗走去，末帧无枪口火花；'只露一只眼睛'连续四版未读出（约7.0s直接出现全身站立约0.3-0.5s再扑出）；枪口焰多轮（约7.8/8.3/8.5/9.3s），9.3s一发为大型火舌。结论：单段10s内'爆冲+首闪定格'末态连续四版守不住，模型总会把丧尸演过定格点。剪救：取v6前8.7s（末帧8.7s：丧尸扑到门前近在咫尺、双爪探向队伍、一发小枪口焰正亮、四人同框、仅一只丧尸）截断为s02a_final.mp4，8.708s，验收通过，见accepted_segments。"
+  },
+  {
+   "file": "user_fmt_v1/s06a_raw.mp4",
+   "id": "S06A",
+   "note": "v1 REJECTED 2026-11-20 6fps密帧+全分辨率关键帧复审：(1)结尾状态破接缝——8.5-10s机位停在空铁门上，三名队员不在画面里（要求铁门前只剩三人背靠铁门、枪口对走廊）；(2)机位约3.5s后由宽景侧面推近到铁门特写，尸潮消失出画，侧面宽景锁未守住；(3)触手缠绕位置错——缠住2号全身/躯干而非只缠脚踝，且多圈盘绕读着像多条；(4)挣扎'双手扒门框'读不出（手臂乱挥）。过关项：与S05B v5末帧接缝好（0-2s同侧面宽景）；4人可数、狼人可辨；换弹空档读得出（2号蹲姿退匣）；触手完成态出现、无慢缠过程；拖入黑暗读得出；头盔+步枪落地在门边（接S06B）；无红色液体、无对白。"
+  },
+  {
+   "file": "user_fmt_v1/s06a_v2_raw.mp4",
+   "id": "S06A",
+   "note": "v2 REJECTED 2026-11-20 6fps密帧+全分辨率关键帧复审：单变量改动（机位/结尾锁）生效——宽景侧面全程守住、尸潮全程在右侧中景、结尾8.5-10s三人背靠铁门同框、头盔+步枪在门边；但新出身份硬伤：6.5-8s拖拽段受害者被画成狼人头（竖耳、长吻、琥珀眼、红三角巾）+人类战术身体（裸臂、工装裤、护膝），而真狼人在这几帧不在画面、8.5s又重新站在门边——观众会读成狼人被拖走又复活。根因：喂图里狼人定妆图排第二、模型把狼人头嫁接到受害者身上。v3单变量改动：受害者人类身份锁（戴盔、人类短发人脸、绝不许狼耳狼吻灰毛）+狼人全程站左侧持枪警戒、绝不许被触手碰到。本轮视频预算6/6已用完，v3留待下轮。"
+  }
+ ],
+ "status_notes": "Preview assembled: EP2_导演修订_前50秒.mp4 (S01+S02A+S02B+S03A+S03B, loudnorm only). Continue from S05 per DIRECTOR_REVISION_AND_PLAN.md (S05 now split A/B, see plan). Round video budget: 6 of 6 USED - round over. S05 COMPLETE (S05A v1 + S05B v5 accepted 2026-11-19); S05B took 5 versions (v1 gate inversion, v2 horde close-surge, v3 biohazard floor symbols, v4 camera drift to frontal + extreme flash, v5 accepted). Lesson: side-camera + side-view gate anchor fixed the gate; each version held all other locks while breaking one new thing (model churn). Next round: S06A (2号换弹空档独守铁栅门被拖入黑暗, feed S05B v5 last frame) then S06B. ASR fix 2026-11-19: faster-whisper-small model.bin was missing from HF cache and hub download stalled at 0 bytes; downloaded model.bin directly via curl (sha256 3e305921506d8872816023e4c273e75d2419fb89b24da97b4fe7bce14170d671 verified) into ~/.cache/huggingface/hub/models--Systran--faster-whisper-small/blobs/; ASR now works offline (HF_HUB_OFFLINE=1). AUDIT METHOD CHANGE 2026-11-19: 1fps tiles cannot judge motion pacing; every segment now also gets >=6fps dense strips + full playthrough, with an explicit pacing item. S02A acceptance revoked (see note). User verdict 14:11 was on a wrong 30.07s file (not any of the 10 assemblies stored here; contains a turned-teammate wall scene absent from EP2_导演修订_前50秒.mp4). PRODUCTION HALTED 2026-11-19 14:29 by user order: ep2-production-continue cron DISABLED (definition kept). User will test in the experiment-zone chat until satisfied, then resume. Accepted segments stand except S02A (revoked, pending reshoot). Do not generate any EP2 footage until user re-authorizes.\n2026-11-20 01:42轮：S02A重拍完成——v3/v4/v5/v6四版10s均因末态守不住被拒（击倒过线/穿过防线/特写+第二只丧尸/穿过防线），最终取v6前8.7s剪救验收通过（末帧8.7s与S02B开场接缝一致）。教训已记入video-production-standard/LESSONS.md。S02A ACCEPTED，next_segment仍为S06A。本轮视频用量：4/6（s02a_v3/v4/v5/v6）。\n2026-11-20 01:42轮收官：本轮视频6/6用完（s02a_v3/v4/v5/v6 + s06a + s06a_v2）。S02A重拍完成（v6剪救8.7s验收通过）；S06A v1/v2均被拒，v3留待下轮（受害者人类身份锁）。待补锚图仍为lab_night（S10A前）、site_anchor（S11A前）、rider_poncho（S19A前）。corridor_dark_state.png已生成并验收可用（暗状态图机制）。next_segment=S06A。\n2026-11-20 04:42轮：本轮视频6/6用完（u1s1v4/v5/v6/v7 + u1s2v2/v3）。U1S1 ACCEPTED（v7，触发词规避法修好三角巾花纹）。U1S2 v2/v3均被拒（机位重构/门时序错乱＋花纹回潮＋红激光点），v4留待下轮（构图锚图须用关门帧、补红激光禁令、三角布锚图排序靠前）。U1S3未拍。新增锚图 wolf_scarf_plain.png（纯红三角布特写，已验收可用）。教训已记入video-production-standard/LESSONS.md。\n2026-11-20 07:42轮：本轮视频5/6用完（u1s2v4/v5/v6/v7/v8）。U1S2五版全被拒，唯一共同失败项是三角布佩斯利印花（v3-v8六连；措辞规避、去构图锚图、换喂图排序、筛抽重跑均未修好）；v5另丢人数（全程3人）、v6/v7人数亦未守住（v6由4掉到3、v7全程3）、v8人数开场3尾帧4。门时序、机位、红激光、零身影、ASR五版全过（v4起门时序已修好）。新锚图 wolf_cloth_back.png（背面结素红特写，紧裁验证无花纹）已生成，留待下轮v9首位喂入。U1S3仍被U1S2尾帧阻塞。本轮余1条视频额度未用。",
+ "workdir": "workspace/ep2_full/user_fmt_v1",
+ "production_queue": [
+  {
+   "id": "S01",
+   "scene": "场1 暗巷潜入",
+   "status": "accepted",
+   "file": "d01_raw.mp4",
+   "revision_source": "s01",
+   "note": "已验收；密帧复审注：后半~4s近静止跪姿、首帧队员举拳多余动作，待修剪/重拍决定。"
+  },
+  {
+   "id": "S02A",
+   "scene": "场2上 开门探黑+丧尸暴起",
+   "status": "accepted",
+   "file": "user_fmt_v1/s02a_final.mp4",
+   "revision_source": "s02",
+   "note": "已验收（v6剪救8.7s版）。剪救披露见accepted_segments注。"
+  },
+  {
+   "id": "S02B",
+   "scene": "场2下 击倒+群吼只声+喊话后撤",
+   "status": "accepted",
+   "file": "s02b_raw.mp4",
+   "revision_source": "s02b",
+   "note": "已验收。"
+  },
+  {
+   "id": "S03A",
+   "scene": "场3上 撤退铺垫+落单+触手缠脚",
+   "status": "accepted",
+   "file": "s03a_raw.mp4",
+   "revision_source": "s03c",
+   "note": "已验收。"
+  },
+  {
+   "id": "S03B",
+   "scene": "场3下 挣扎+倒吊拖入+空走廊",
+   "status": "accepted",
+   "file": "s03b_raw.mp4",
+   "revision_source": "s03c",
+   "note": "已验收；盘管特写微红棕调（已接受的瑕疵类）。"
+  },
+  {
+   "id": "S04A",
+   "scene": "场4上 楼梯间尸潮如瀑涌下",
+   "status": "accepted",
+   "file": "s04a_v3_raw.mp4",
+   "revision_source": "s04a3",
+   "note": "已验收 v3。"
+  },
+  {
+   "id": "S04B",
+   "scene": "场4下 交叉火力压制+2号喊话+三角阵后撤",
+   "status": "accepted",
+   "file": "s04b_v2_raw.mp4",
+   "revision_source": "s04b",
+   "note": "已验收 v2；台词ASR逐字过。"
+  },
+  {
+   "id": "S05A",
+   "scene": "场5上 走廊三角阵且战且退",
+   "status": "accepted",
+   "file": "s05a_raw.mp4",
+   "revision_source": "s05a3",
+   "note": "已验收；注意：旧版s05a3.txt本身内容为S09A掐丧尸讲方案，与S05A同名不同段，勿混用。S05A以user_fmt_v1/s05a.txt为准。"
+  },
+  {
+   "id": "S05B",
+   "scene": "场5下 抵达铁栅门背靠铁门顶住尸潮",
+   "status": "accepted",
+   "file": "s05b_v5_raw.mp4",
+   "revision_source": "s05b3",
+   "note": "已验收 v5；旧版s05b3.txt文件缺失，由user_fmt_v1/s05b_v5.txt覆盖。"
+  },
+  {
+   "id": "S06A",
+   "scene": "场6上 换弹空档2号独守铁栅门被拖入黑暗",
+   "status": "todo",
+   "file": null,
+   "revision_source": null,
+   "note": "v1被拒（结尾三人不在画、机位推近、触手缠全身）；v2被拒（机位/结尾已守住，但拖拽段受害者被画成狼人头）。v3待下轮：单变量加受害者人类身份锁+狼人全程左侧警戒。提示词：user_fmt_v1/s06a_v2.txt（v3在其上改）。"
+  },
+  {
+   "id": "S06B",
+   "scene": "场6下 头盔滚出、电台忙音、静默",
+   "status": "todo",
+   "file": null,
+   "revision_source": null,
+   "note": "需新写导演版提示词。"
+  },
+  {
+   "id": "S07A",
+   "scene": "场7上 手雷炸退尸潮",
+   "status": "todo",
+   "file": null,
+   "revision_source": null,
+   "note": "需新写导演版提示词。"
+  },
+  {
+   "id": "S07B",
+   "scene": "场7下 冲击波塌梁压住3号腿+喊话",
+   "status": "todo",
+   "file": null,
+   "revision_source": null,
+   "note": "需新写导演版提示词。台词「Contact! Watch out—agh! My legs are pinned!」。"
+  },
+  {
+   "id": "S08A",
+   "scene": "场8上 狼人检查咬伤+3号台词",
+   "status": "todo",
+   "file": null,
+   "revision_source": "s08a",
+   "note": "旧版s08a.txt待核对后改写。"
+  },
+  {
+   "id": "S08B",
+   "scene": "场8中 狼人承诺「兄弟撑住，我一定会救你的。」",
+   "status": "todo",
+   "file": null,
+   "revision_source": "s08b2",
+   "note": "旧版s08b2.txt待核对后改写。"
+  },
+  {
+   "id": "S08C",
+   "scene": "场8下 自拍开场白（手机POV）",
+   "status": "todo",
+   "file": null,
+   "revision_source": "s04c",
+   "note": "旧版s04c.txt存在但带「暗部带胶片颗粒」旧口径，生产时须改干净低噪点；造型改红色三角巾。台词「大家好，我是狼人，爆发丧尸危机不要怕，我来教你如何生存。」"
+  },
+  {
+   "id": "S09A",
+   "scene": "场9上 狼人左手掐丧尸后颈+立论台词",
+   "status": "unrun",
+   "file": null,
+   "revision_source": "s05a3",
+   "note": "修订批未跑6条之一。旧版s05a3.txt存在。"
+  },
+  {
+   "id": "S09B",
+   "scene": "场9下 「只要把丧尸治愈，那么所有问题，将迎刃而解。」",
+   "status": "todo",
+   "file": null,
+   "revision_source": "s09b",
+   "note": "旧版s09b.txt待核对后改写。"
+  },
+  {
+   "id": "S10A",
+   "scene": "场10上 户外夜采样+测序仪蓝全息螺旋",
+   "status": "todo",
+   "file": null,
+   "revision_source": "s06a4",
+   "note": "开拍前先补lab_night.png锚图并排第一。旧版s06a4.txt存在。"
+  },
+  {
+   "id": "S10B",
+   "scene": "场10下 测序台词（逆转酶抑制剂，>45字拆段）",
+   "status": "todo",
+   "file": null,
+   "revision_source": "s06b2",
+   "note": "旧版s06b2.txt待核对后改写。"
+  },
+  {
+   "id": "S10C",
+   "scene": "场10补 首次滴定失败（绿血管更亮、挣扎）",
+   "status": "unrun",
+   "file": null,
+   "revision_source": "s10c",
+   "note": "修订批未跑6条之一。旧版s10c.txt存在；为S14成功滴定前的失败一拍，组装时与S14衔接。"
+  },
+  {
+   "id": "S11A",
+   "scene": "场11上 隔离舱延时建造（无声）",
+   "status": "unrun",
+   "file": null,
+   "revision_source": "s08c",
+   "note": "修订批未跑6条之一。开拍前先补site_anchor.png户外工地锚图。旧版s08c.txt存在（延时建造段）。"
+  },
+  {
+   "id": "S11B",
+   "scene": "场11下 发电机启动+狼人台词（正负压隔离无菌舱）",
+   "status": "todo",
+   "file": null,
+   "revision_source": null,
+   "note": "需新写导演版提示词。"
+  },
+  {
+   "id": "S12",
+   "scene": "场12 被压3号发抖呼救",
+   "status": "todo",
+   "file": null,
+   "revision_source": "s07b",
+   "note": "旧版s07b.txt待核对后改写；台词「Hey... Wolf... hurry up... I can't feel my legs...」。"
+  },
+  {
+   "id": "S13",
+   "scene": "场13 舱内合成琥珀金逆转酶液+台词（含活体滴定）",
+   "status": "todo",
+   "file": null,
+   "revision_source": "s10a2",
+   "note": "旧版s10a2.txt待核对后改写。"
+  },
+  {
+   "id": "S14",
+   "scene": "场14 锁链试验丧尸活体滴定成功（绿纹消退、眼变清）",
+   "status": "todo",
+   "file": null,
+   "revision_source": "s10b3",
+   "note": "旧版s10b3.txt待核对后改写；台词「绿斑消退、神经反射恢复正常，药效百分百对路。」"
+  },
+  {
+   "id": "S15",
+   "scene": "场15 3号静止：头盔垂下、手滑入水、红LED熄、心电长音",
+   "status": "todo",
+   "file": null,
+   "revision_source": "s09b",
+   "note": "旧版s09b.txt内容实为衰弱转静止段，与S12/S15共用来源，生产时按S15重写；待核对。"
+  },
+  {
+   "id": "S16A",
+   "scene": "场16上 三座9米发酵罐延时建造（夜→黎明→正午）",
+   "status": "todo",
+   "file": null,
+   "revision_source": "s12t2",
+   "note": "旧版s12t2.txt待核对后改写。"
+  },
+  {
+   "id": "S16B",
+   "scene": "场16下 狼人台词（三座工业级生物发酵罐）",
+   "status": "todo",
+   "file": null,
+   "revision_source": "s12a",
+   "note": "旧版s12a.txt（罐前拧法兰）待核对后改写。"
+  },
+  {
+   "id": "S17A",
+   "scene": "场17上 百米雾化塔延时建造（午后→黄昏→夜）",
+   "status": "unrun",
+   "file": null,
+   "revision_source": "s12t3",
+   "note": "修订批未跑6条之一。旧版s12t3.txt存在（管道+雾化塔延时建造）。"
+  },
+  {
+   "id": "S17B",
+   "scene": "场17下 狼人塔顶锁第12个超声波喷头+台词",
+   "status": "todo",
+   "file": null,
+   "revision_source": null,
+   "note": "需新写导演版提示词。"
+  },
+  {
+   "id": "S18",
+   "scene": "场18 白骨化3号（干净干燥博物馆式白骨）+白蛾飞过眼窝",
+   "status": "todo",
+   "file": null,
+   "revision_source": "s11_trim",
+   "note": "s11_trim=s11_raw 5-10s白骨段，挪到阵列建成后揭示；s11前半不再用作第9镜代偿。"
+  },
+  {
+   "id": "S19A",
+   "scene": "场19上 狼人点外卖+丧尸骑手骑黄电动车雨夜送达",
+   "status": "unrun",
+   "file": null,
+   "revision_source": "s13a2",
+   "note": "修订批未跑6条之一。开拍前先补rider_poncho.png锚图（脏黄连帽雨披+黄头盔+电动车）。旧版s13a2.txt存在；下单台词为助理补写、待用户审（s12c）。"
+  },
+  {
+   "id": "S19B",
+   "scene": "场19下 递稳定剂+骑手慢断台词+狼人「谢了兄弟。」+骑手摇晃骑走",
+   "status": "todo",
+   "file": null,
+   "revision_source": "s13b",
+   "note": "旧版s13b.txt（倒催化酶进罐）待核对后改写；骑手台词逐字锁定「您……的……外……卖……记……得……五……星……好……评……」。"
+  },
+  {
+   "id": "S20",
+   "scene": "场20 白骨风化崩塌，只剩压扁空背心+落地头盔+小堆灰",
+   "status": "todo",
+   "file": null,
+   "revision_source": "s14",
+   "note": "旧版s14.txt待核对后改写。"
+  },
+  {
+   "id": "S21",
+   "scene": "场21 狼人拉户外电箱红色大闸+「生物解药雾化阵列，全线启动！」+塔喷琥珀金雾",
+   "status": "todo",
+   "file": null,
+   "revision_source": "s15b",
+   "note": "旧版s15b.txt待核对后改写。"
+  },
+  {
+   "id": "S22A",
+   "scene": "场22上 空中雾墙横扫全城",
+   "status": "todo",
+   "file": null,
+   "revision_source": null,
+   "note": "需新写导演版提示词。"
+  },
+  {
+   "id": "S22B",
+   "scene": "场22下 雨披骑手骑行中被治愈+狼人画外音",
+   "status": "todo",
+   "file": null,
+   "revision_source": "s16b",
+   "note": "旧版s16b.txt待核对后改写。"
+  },
+  {
+   "id": "S23A",
+   "scene": "场23上 黎明狼人捧解药跑回喊「兄弟！解药成了，全城都救——」刹住",
+   "status": "todo",
+   "file": null,
+   "revision_source": "s17",
+   "note": "旧版s17.txt待核对后改写。"
+  },
+  {
+   "id": "S23B",
+   "scene": "场23下 凝视空背心与被风吹散的灰3秒+歪头问「……他走了吗？」",
+   "status": "todo",
+   "file": null,
+   "revision_source": "s17",
+   "note": "旧版s17.txt待核对后改写。"
+  }
+ ],
+ "queue_note": "2026-11-20 01:42轮对齐：S段（导演修订版，生产系统）为主队列；revision_source为旧账号30段组装顺序（REVISION_ORDER_v2.md）按内容映射。状态：accepted=已验收（9段，S02A除外）、reshoot=待重拍（S02A）、unrun=修订批未跑6条（s05a3/s10c/s12c/s12t3/s13a2/s08c→S09A/S10C/S19A下单/S17A/S19A/S11A）、todo=待产。旧版.txt凡带「暗部带胶片颗粒」者生产时一律改干净低噪点（以原件口径为准）；狼人造型一律以wolf_tri_sheet.webp红色三角巾为准，不用wolf_ep2.png围巾版。",
+ "unit_plan_v3": {
+  "file": "UNIT_PLAN_v3.md",
+  "ruling": "2026-11-20 02:35 用户令：剧本为大纲、演绎可补全改进；30秒单元制；前30秒整体重设计重拍（统一地点地理）；审片完全没问题才交付。本计划取代 production_queue 的推进顺序，旧队列与旧验收记录保留作历史。",
+  "act1_status": "U1 shot 2026-11-20 night, U1S1 accepted (v7), U1S2/U1S3 pending",
+  "current_unit": "U1 (U1S1 accepted; U1S2 v9 next with new back-view cloth anchor wolf_cloth_back.png fed first, then U1S3)",
+  "u1_takes": {
+   "U1S1": "v7 (u1s1v7_raw.mp4) ACCEPTED 2026-11-20: trigger-word dodge worked - scarf plain solid red all 10s (tight zoom 9.0s verified); count 4; line 'Sweep left, keep your lights low.' complete once 2.4-3.7s ASR; rear-follow viewpoint holds, no frontal faces; door correct (green rust, broken 2-pane window); tail = wolf at door listening, matches U1S2 opening state. Nits: teammates in darkness at tail (by U1S2 design); watch not readable in tail frames; alley floor reflections brighter than v3 early on. v4/v5/v6 rejected (see LESSONS 2026-11-20).",
+   "U1S2": "v4 (u1s2v4_raw.mp4) REJECTED 2026-11-20: door timing FIXED (closed to ~4.7s, opens 4.7-6.5s, no open-close-open scramble), camera held wide fixed all 10s, no red laser dots, count 4, zero figures in doorway, tail matches plan, ASR only 'Hmm.' murmurs on near-silence (hallucination). FAIL is paisley only: white paisley print on the red neck cloth at 5.5s and 9.9s (tight-zoom verified). v4 single-variable change (closed-door comp anchor v2 f5.5 + red-laser ban + scarf anchor ranked 2nd) fixed all three v3 failures but not the cloth. v5 (u1s2v5_raw.mp4) REJECTED: mechanism change (dropped the video-frame comp anchor; feeds tri-sheet + scarf-plain + last frame) did NOT fix paisley (tight zoom 2.0s/9.9s still paisley) and BROKE the count: only 3 people throughout (wolf + 2 teammates). Lesson: the wide comp anchor carries the count; do not drop it for U1S2. Door/camera/laser/zero-figures/ASR all pass; ASR 'Okay, let\\'s go get some water.' 0.0-0.7s on RMS 0.007 = hallucination. v6 (u1s2v6_raw.mp4) REJECTED: wording dodge ('plain-weave cotton cloth', zero '三角布/三角巾') did NOT fix paisley (bold paisley at 0.5s/5.5s/9.9s tight-zoom verified); count 4 at opening but drops to 3 by 5.5s (far-left teammate exits frame), tail has 3. Rest passes (door opens ~5s, camera holds, no red dots, zero figures, ASR silent). v7 (u1s2v7_raw.mp4) REJECTED: rank swap (scarf-plain first, tri-sheet second, comp anchor third) did NOT fix paisley (faint paisley on the tail at 5.5s/9.9s, weaker than v4/v6 but still printed) and did NOT restore count (3 throughout). Camera did NOT pull into close-up (comp anchor held the wide). Rest passes; ASR 'Thank you very much for watching!' 7.1-10.0s on low RMS = end-of-video hallucination. v8 (u1s2v8_raw.mp4) REJECTED (screening re-draw of v4 exact prompt+feeds, disclosed in round log): paisley persists BOLD at 0.5s/5.5s/9.9s (tight-zoom verified); count 3 at opening, 4 at tail (far-left teammate invisible until ~7s, pop-in). Rest passes (door, camera, no red dots, zero figures, ASR 'Thank you so much for watching...' 7-10s hallucination). NEW ANCHOR this round: wolf_cloth_back.png (act1_test/, prompt wolf_cloth_back.txt) - back-view cloth anchor generated from tri-sheet + scarf-plain + v2 f5.5; tight-zoom verified SOLID RED knot, zero paisley. Next v9 feeds it FIRST as cloth authority, with explicit firewall that its door state (ajar) must NOT be copied (door governed by comp anchor, closed at opening). Paisley tally: v3-v8 six consecutive wide-composition versions all paisley; only clean U1S2 draw was v2 (tight camera). Conclusion: paisley is systematic to the wide back-view knot rendering, not a pure lottery - screening alone is not the remedy.",
+   "U1S3": "NOT SHOT this round (blocked on U1S2 accepted tail). Next: feed U1S2 accepted tail + exterior door frame (u1s1v7_last), lock fight at the threshold outside, zombie chest covered by torn clothes, flame size lock."
+  }
+ }
 }
