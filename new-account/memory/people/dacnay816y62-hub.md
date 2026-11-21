@@ -1,7 +1,7 @@
 ---
 display_name: "dacnay816y62-hub"
 summary: "GitHub作者，cinema-dna-21x9x3 视频提示词 skill 的作者；2026-11-21纯 skill A版10秒巷战v2/v6被用户驳回后，八轮基线测试闭环、归因账定稿，C3/C4整片逻辑仍未过关，是否采纳仍未裁定。"
-rank: 17
+rank: 18
 updated: "2026-11-21"
 ---
 
