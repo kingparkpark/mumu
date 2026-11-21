@@ -1,7 +1,7 @@
 ---
 display_name: "LuoJiangYong"
 summary: "GitHub作者，muse-video-skill前期策划引擎的作者；2026-11-18其编译提示词生成的30秒试验片用户评「算准确了不少」，策划层有用，但2026-11-19用户裁定撤销该skill、改用自备导演skill，隔离目录保留；2026-11-20用户令EP2只按三份指定文件执行，其借用亦暂时搁置、不再引用。"
-rank: 17
+rank: 18
 updated: "2026-11-20"
 ---
 

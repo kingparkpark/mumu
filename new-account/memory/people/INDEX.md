@@ -18,6 +18,7 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **田字格儿** — `~/memory/people/tian-zige-er.md` — 抖音博主，用户2026-11-08亲选的14个剧本学习主样本之一；2026-11-10 10条真TOP10分析通读完成、汇总终版并建成剧本skill，博主深挖线收官；主发动机是严肃流程整套移植到鸡毛琐事，分享大于点赞。
 - **DiDi_OK** — `~/memory/people/didi-ok.md` — 抖音博主，用户2026-11-08亲选的14个剧本学习主样本之一；抖音仅5条作品、条均57万赞，去AI感纪律是其学习点。
 - **dichenxiang** — `~/memory/people/dichenxiang.md` — GitHub作者，muse-video-prompt技能包的作者；用户2026-11-11令学其方法，三条接缝与提示词规则已进EP1锁定执行标准。
+- **dacnay816y62-hub** — `~/memory/people/dacnay816y62-hub.md` — GitHub作者，cinema-dna-21x9x3 视频提示词 skill 的作者；2026-11-21清明对照测试后用户取消融合B版，纯 skill A版以巷战、月球基地继续复测，待10秒好莱坞巷战自审过关后再裁定。
 - **LuoJiangYong** — `~/memory/people/luojiangyong.md` — GitHub作者，muse-video-skill前期策划引擎的作者；2026-11-18其编译提示词生成的30秒试验片用户评「算准确了不少」，策划层有用，但2026-11-19用户裁定撤销该skill、改用自备导演skill，隔离目录保留；2026-11-20用户令EP2只按三份指定文件执行，其借用亦暂时搁置、不再引用。
 - **HeyChengC** — `~/memory/people/heychengc.md` — GitHub作者，vibe-knowledge-film skill的作者；用户2026-11-15发链接令试用结合，其讲解设计法已用于审计《一口泡面》，出片引擎与狼人线冲突未采用。
 - **刘大悦er** — `~/memory/people/liu-dayue-er.md` — 抖音博主，用户2026-11-08亲选的14个剧本学习主样本之一；2026-11-09通读总结为偷换概念三级放大，2022年90秒家庭短剧为点赞效率峰值，抖音288条作品。
@@ -44,3 +45,4 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **赵星星的AI小剧场** — `~/memory/people/zhao-xingxing-ai-xiaojuchang.md` — 抖音AI短剧连载账号，用户2026-10-29列入剧本学习参考，2026-11-11用户明确不要该学习线、已作废。
 - **zysen1** — `~/memory/people/zysen1.md` — GitHub作者，batch-video-plugin批量生产工作流插件的作者；用户2026-11-18令严格测试后判「没有丝毫帮助」，已撤回删除，结论已推送至狼人会话并记为不再复测。
 - **锦鲤同学** — `~/memory/people/loi-jinli.md` — X 博主 loi_jinli，备份迁移方法的作者；用户 2026-11-19 采用其方法改写并完成首次 new-account 备份，旧账号亦采用同一套。
+- **D4Vinci** — `~/memory/people/d4vinci.md` — GitHub作者，Scrapling抓取库的作者；用户2026-11-01令学其方法并配备为助理基础技能，用于抓取学习用户指定的视频账号公开数据。

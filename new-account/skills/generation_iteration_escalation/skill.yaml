@@ -1,0 +1,26 @@
+name: generation_iteration_escalation
+title: Generation iteration escalation
+description: Stop re-prompting the same generated segment after repeated content failures, change the approach, and escalate the cost to the user before more versions burn.
+category: Creation
+include_in_prompt: false
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - message:98dacf50-846b-467c-8bec-8499a1416b59
+  - message:73c89d73-8ab3-4100-a0e8-1ca67dc1fd5f
+  - message:assistant-msg-0568123b-c99e-49bb-bb56-7da55d95a28a
+  - message:assistant-msg-2f2dc6e3-243f-4a35-b732-8f8529dbb964
+  - ~/MEMORY.md
+  - ~/dreams/alignment/derived/ALIGNMENT_SYNTHESIS.md
+  - /home/hatch/workspace/custom-skills/video_generation_retry/SKILL.md
+  - /home/hatch/workspace/custom-skills/generated_video_delivery_check/SKILL.md
+  measurement:
+    proxy_metric_id: generation_iteration_grind_incidents
+    success_criterion: Zero segments in the window reach six consecutive content-failed versions without an approach change or a user escalation, and every segment that reaches three consecutive content failures has a logged approach change.
+    window_days: 21
+  needs_review: false
+  rationale: 'On 2026-11-20 the door segment ran versions 2 to 14 with only the first 10 seconds usable, and the user asked why a whole night had not produced even the first 30 seconds (message:98dacf50-846b-467c-8bec-8499a1416b59); the assistant admitted grinding one variable at a time too long without changing approach or escalating cost. The same loop repeated on the 50 to 60 second corpse-tide segment (versions 13 to 15, message:assistant-msg-2f2dc6e3-243f-4a35-b732-8f8529dbb964) and on tentacle and gunfire corrections. No managed skill caps consecutive playable-but-wrong versions: video_generation_retry governs transient service failures and keeps prompts unchanged, generated_video_delivery_check judges finished video, seedance_shot_director writes prompts, and script_first_production_gate blocks unscripted beats. The new skill counts content failures separately, forces one approach change after three, and stops for a user decision after five. Repaired per the conflict verdict: the five-failure stop now yields to an explicit user instruction to keep trying until success, and approach changes preserve the locked prompt, references, format, duration and locked lines unless the user approves a change, so split, first-frame and reference changes are approval-gated. Consolidation at 11 active learned skills was reviewed and no merge was made (distinct stages and proxies). The delivery-check full-body gap was left alone because that skill is inside its window until 2026-12-05 and review is currently off by user order; backup cron failures are an authorisation decision, not a method; repeated-handoff candidates are trigger cadence, not a managed document.'
+  review_after: 2026-12-12T04:41:40.598652+00:00
+  reviewed_at: 2026-11-21T04:41:40.598652+00:00
+  run_id: sirun_3695c87d29934348965c519e281950a8
