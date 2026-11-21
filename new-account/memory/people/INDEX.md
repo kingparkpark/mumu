@@ -18,7 +18,7 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **田字格儿** — `~/memory/people/tian-zige-er.md` — 抖音博主，用户2026-11-08亲选的14个剧本学习主样本之一；2026-11-10 10条真TOP10分析通读完成、汇总终版并建成剧本skill，博主深挖线收官；主发动机是严肃流程整套移植到鸡毛琐事，分享大于点赞。
 - **DiDi_OK** — `~/memory/people/didi-ok.md` — 抖音博主，用户2026-11-08亲选的14个剧本学习主样本之一；抖音仅5条作品、条均57万赞，去AI感纪律是其学习点。
 - **dichenxiang** — `~/memory/people/dichenxiang.md` — GitHub作者，muse-video-prompt技能包的作者；用户2026-11-11令学其方法，三条接缝与提示词规则已进EP1锁定执行标准。
-- **apimodels** — `~/memory/people/apimodels.md` — GitHub作者，muse-video-prompts 仓库（205条视频提示词）的作者；2026-11-21其巷战批量测试被用户叫停（判没一个能用、怀疑底层污染或缺引导），F4与G6的优点已吸收入F4G6整合格式继续用。
+- **apimodels** — `~/memory/people/apimodels.md` — GitHub作者，muse-video-prompts 仓库（205条提示词）的作者；其F4/G6优点整合的F4G6格式经N15–N27十三轮巷战调试，2026-11-22 N27被用户判“勉强算过”，由此总结的14条提示词工艺已同步进EP2执行。
 - **dacnay816y62-hub** — `~/memory/people/dacnay816y62-hub.md` — GitHub作者，cinema-dna-21x9x3 视频提示词 skill 的作者；2026-11-21纯 skill A版10秒巷战v2/v6被用户驳回后，八轮基线测试闭环、归因账定稿，C3/C4整片逻辑仍未过关，是否采纳仍未裁定。
 - **LuoJiangYong** — `~/memory/people/luojiangyong.md` — GitHub作者，muse-video-skill前期策划引擎的作者；2026-11-18其编译提示词生成的30秒试验片用户评「算准确了不少」，策划层有用，但2026-11-19用户裁定撤销该skill、改用自备导演skill，隔离目录保留；2026-11-20用户令EP2只按三份指定文件执行，其借用亦暂时搁置、不再引用。
 - **HeyChengC** — `~/memory/people/heychengc.md` — GitHub作者，vibe-knowledge-film skill的作者；用户2026-11-15发链接令试用结合，其讲解设计法已用于审计《一口泡面》，出片引擎与狼人线冲突未采用。
