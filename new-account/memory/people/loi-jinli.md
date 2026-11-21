@@ -1,7 +1,7 @@
 ---
 display_name: "锦鲤同学"
 summary: "X 博主 loi_jinli，备份迁移方法的作者；用户 2026-11-19 采用其方法改写并完成首次 new-account 备份，旧账号亦采用同一套。"
-rank: 43
+rank: 44
 updated: "2026-11-19"
 ---
 

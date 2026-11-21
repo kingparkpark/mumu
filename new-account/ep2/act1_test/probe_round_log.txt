@@ -1,0 +1,129 @@
+=== u2s4_probe_a1 ===
+exit 0
+_ht=scontent.xx.fbcdn.net&_nc_cat=110&_nc_ohc=jdyOPdbexAsQ7kNvwFTaitI&sdl=0&ccb=14-4&oh=00_AQTYBxsK7lctHrwG8fwIOkgo_ZkmuPl4Wx4HZhmICLb0jA&oe=6B03443D&_nc_sid=a21977"],"ok":true,"output_path":"/home/hatch/workspace/imagine_media/media-generation-0-3-9-16-720x1280-5-24fps-50-60-bgm-a-1-1795260331.json","snapshot_id":"fabaea5f-4b65-4acf-963a-0b5fd971b0c9:qhdcek","status":200,"tool":"media_subagent"}
+
+
+SAVED u2s4_probe_a1
+exit=0
+=== u2s4_probe_a2 ===
+exit 0
+_ht=scontent.xx.fbcdn.net&_nc_cat=110&_nc_ohc=gg5V29dvIecQ7kNvwEcKXoi&sdl=0&ccb=14-4&oh=00_AQTpbEGEIc2DjUCRu46b_TPA4kKywcrvXb8ZaJN_d7zF5w&oe=6B034C5E&_nc_sid=a21977"],"ok":true,"output_path":"/home/hatch/workspace/imagine_media/media-generation-0-3-9-16-720x1280-5-24fps-50-60-bgm-a-2-1795260377.json","snapshot_id":"d7159708-f4be-444c-8f9a-2c8e800ca426:jx415j","status":200,"tool":"media_subagent"}
+
+
+SAVED u2s4_probe_a2
+exit=0
+=== u2s4_probe_b1 ===
+exit 0
+_ht=scontent.xx.fbcdn.net&_nc_cat=110&_nc_ohc=qM6oiHZuskEQ7kNvwFl4a4K&sdl=0&ccb=14-4&oh=00_AQSxtFMdglpw8Uy_cP5uBWq1q0ulcKXoZ_9DOIUg4LfYSA&oe=6B034440&_nc_sid=a21977"],"ok":true,"output_path":"/home/hatch/workspace/imagine_media/media-generation-0-3-9-16-720x1280-5-24fps-50-60-bgm-b-1-1795260425.json","snapshot_id":"d51c558f-3e6c-4d5a-9e7d-99fb18f3103b:ib5gk9","status":200,"tool":"media_subagent"}
+
+
+SAVED u2s4_probe_b1
+exit=0
+=== u2s4_probe_b2 ===
+exit 0
+_ht=scontent.xx.fbcdn.net&_nc_cat=106&_nc_ohc=UD-vCFeKi3IQ7kNvwE5aCGC&sdl=0&ccb=14-4&oh=00_AQS9wuSuTk5uAKxZQkyHqhEil6ldxeNrgJvtHFxl6uc37g&oe=6B036BA9&_nc_sid=a21977"],"ok":true,"output_path":"/home/hatch/workspace/imagine_media/media-generation-0-3-9-16-720x1280-5-24fps-50-60-bgm-b-2-1795260471.json","snapshot_id":"20281ce0-73ed-45d9-b5cf-bb2aa1ff7b92:esqjbo","status":200,"tool":"media_subagent"}
+
+
+SAVED u2s4_probe_b2
+exit=0
+=== u2s4_probe_c1 ===
+exit 0
+_ht=scontent.xx.fbcdn.net&_nc_cat=100&_nc_ohc=a4Uojo0fQX4Q7kNvwHnbnwX&sdl=0&ccb=14-4&oh=00_AQTpTv_exfp5HK_E6Z0mtr9jd39YK8MHdcPxIBf08icOIQ&oe=6B0349F1&_nc_sid=a21977"],"ok":true,"output_path":"/home/hatch/workspace/imagine_media/media-generation-0-3-9-16-720x1280-5-24fps-50-60-bgm-c-1-1795260509.json","snapshot_id":"e07a0604-5390-4ce7-9030-c26e8afbbf02:z1z80o","status":200,"tool":"media_subagent"}
+
+
+SAVED u2s4_probe_c1
+exit=0
+=== u2s4_probe_c2 ===
+exit 0
+_ht=scontent.xx.fbcdn.net&_nc_cat=111&_nc_ohc=p9ygMfYnZcQQ7kNvwHHM7lK&sdl=0&ccb=14-4&oh=00_AQT0DgejkKyFvyMue6GY1QYsNJatfDFZWi40nft9g18HdQ&oe=6B0359E0&_nc_sid=a21977"],"ok":true,"output_path":"/home/hatch/workspace/imagine_media/media-generation-0-3-9-16-720x1280-5-24fps-50-60-bgm-c-2-1795260551.json","snapshot_id":"874d5a2d-c8f6-4b9e-a9e2-7be932631ac5:60qbs5","status":200,"tool":"media_subagent"}
+
+
+SAVED u2s4_probe_c2
+exit=0
+=== u2s4_probe_d1 ===
+exit 0
+_ht=scontent.xx.fbcdn.net&_nc_cat=101&_nc_ohc=fMaZcFgWe0gQ7kNvwFyloJ4&sdl=0&ccb=14-4&oh=00_AQQYEVUCqs0MShpA88CHUf89cfYOnn2ObFRF33FZAAF5tw&oe=6B036068&_nc_sid=a21977"],"ok":true,"output_path":"/home/hatch/workspace/imagine_media/media-generation-9-16-720x1280-5-24fps-50-60-bgm-d-1-a-b-1795260597.json","snapshot_id":"27e854cc-18a5-4e4d-abab-d834a2635432:95i5r2","status":200,"tool":"media_subagent"}
+
+
+SAVED u2s4_probe_d1
+exit=0
+=== u2s4_probe_d2 ===
+exit 0
+_ht=scontent.xx.fbcdn.net&_nc_cat=110&_nc_ohc=yXZYEAAuay0Q7kNvwG6mBSZ&sdl=0&ccb=14-4&oh=00_AQRHP5UU_3-JsF-VxQ59W76AsHjrkPn3CWEpnmDPaY6hKQ&oe=6B03459E&_nc_sid=a21977"],"ok":true,"output_path":"/home/hatch/workspace/imagine_media/media-generation-9-16-720x1280-5-24fps-50-60-bgm-d-2-a-b-1795260638.json","snapshot_id":"35ce39a5-3b86-46d5-885f-7ccb990cd8f8:z03ohe","status":200,"tool":"media_subagent"}
+
+
+SAVED u2s4_probe_d2
+exit=0
+=== VERIFY ===
+codec_name=h264
+width=720
+height=1280
+r_frame_rate=24/1
+codec_name=aac
+r_frame_rate=0/0
+duration=10.000000
+size=2691245
+-- u2s4_probe_a1_raw.mp4
+codec_name=h264
+width=720
+height=1280
+r_frame_rate=24/1
+codec_name=aac
+r_frame_rate=0/0
+duration=10.000000
+size=2894375
+-- u2s4_probe_a2_raw.mp4
+codec_name=h264
+width=720
+height=1280
+r_frame_rate=24/1
+codec_name=aac
+r_frame_rate=0/0
+duration=10.000000
+size=3528234
+-- u2s4_probe_b1_raw.mp4
+codec_name=h264
+width=720
+height=1280
+r_frame_rate=24/1
+codec_name=aac
+r_frame_rate=0/0
+duration=10.000000
+size=3273392
+-- u2s4_probe_b2_raw.mp4
+codec_name=h264
+width=720
+height=1280
+r_frame_rate=24/1
+codec_name=aac
+r_frame_rate=0/0
+duration=5.000000
+size=2092333
+-- u2s4_probe_c1_raw.mp4
+codec_name=h264
+width=720
+height=1280
+r_frame_rate=24/1
+codec_name=aac
+r_frame_rate=0/0
+duration=5.000000
+size=1766206
+-- u2s4_probe_c2_raw.mp4
+codec_name=h264
+width=720
+height=1280
+r_frame_rate=24/1
+codec_name=aac
+r_frame_rate=0/0
+duration=5.000000
+size=2293973
+-- u2s4_probe_d1_raw.mp4
+codec_name=h264
+width=720
+height=1280
+r_frame_rate=24/1
+codec_name=aac
+r_frame_rate=0/0
+duration=5.000000
+size=3242189
+-- u2s4_probe_d2_raw.mp4

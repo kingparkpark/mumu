@@ -1,7 +1,7 @@
 ---
 display_name: "野兽先生MrBeast"
 summary: "MrBeast官方抖音号，用户2026-11-08亲选的14个剧本学习主样本之一；抖音187条作品。"
-rank: 23
+rank: 24
 updated: "2026-11-08"
 ---
 
