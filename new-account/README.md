@@ -1,5 +1,5 @@
 # Muse 迁移包（新账号）
-打包时间：2026-11-23 14:36 CST
+打包时间：2026-11-23 20:36 CST
 来源账号：新账号（new-account）。包内另有 SOURCE-ACCOUNT.txt 为来源标记。
 
 ## 包里有什么
@@ -21,5 +21,5 @@
 缓存目录（asr_venv、.hf_cache、__pycache__、.venv、node_modules）一律不入包。
 
 ## 文件计数
-{"core": 7, "memory": 88, "skills": 464, "ep2": 538, "goals": 4, "total_incl_readme_marker": 1103}
+{"core": 7, "memory": 88, "skills": 464, "ep2": 586, "goals": 4, "total_incl_readme_marker": 1151}
 GitHub 镜像（new-account/）为同批文本文件，唯独不含 memory/bank 派生数据；技能包内的图片素材（.png/.svg）仅在本机 ZIP 内，不入 GitHub 文本镜像。
