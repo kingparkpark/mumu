@@ -18,7 +18,7 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **田字格儿** — `~/memory/people/tian-zige-er.md` — 抖音博主，用户2026-11-08亲选的14个剧本学习主样本之一；2026-11-10 10条真TOP10分析通读完成、汇总终版并建成剧本skill，博主深挖线收官；主发动机是严肃流程整套移植到鸡毛琐事，分享大于点赞。
 - **DiDi_OK** — `~/memory/people/didi-ok.md` — 抖音博主，用户2026-11-08亲选的14个剧本学习主样本之一；抖音仅5条作品、条均57万赞，去AI感纪律是其学习点。
 - **dichenxiang** — `~/memory/people/dichenxiang.md` — GitHub作者，muse-video-prompt技能包的作者；用户2026-11-11令学其方法，三条接缝与提示词规则已进EP1锁定执行标准。
-- **apimodels** — `~/memory/people/apimodels.md` — GitHub作者，muse-video-prompts 仓库（205条提示词）的作者；其F4/G6优点整合的F4G6格式经N15–N27十三轮巷战调试，2026-11-22 N27被用户判“勉强算过”，由此总结的14条提示词工艺已同步进EP2执行。
+- **apimodels** — `~/memory/people/apimodels.md` — GitHub作者，muse-video-prompts 仓库（205条提示词）的作者；其F4/G6优点整合的F4G6格式经N15–N27十三轮巷战调试，2026-11-22 N27被用户判“勉强算过”，14条提示词工艺已同步进EP2执行；2026-11-24该仓库又成为AI视频工作流空间提示词库的数据源。
 - **dacnay816y62-hub** — `~/memory/people/dacnay816y62-hub.md` — GitHub作者，cinema-dna-21x9x3 视频提示词 skill 的作者；2026-11-21纯 skill A版10秒巷战v2/v6被用户驳回后，八轮基线测试闭环、归因账定稿，C3/C4整片逻辑仍未过关，是否采纳仍未裁定。
 - **LuoJiangYong** — `~/memory/people/luojiangyong.md` — GitHub作者，muse-video-skill前期策划引擎的作者；2026-11-18其编译提示词生成的30秒试验片用户评「算准确了不少」，策划层有用，但2026-11-19用户裁定撤销该skill、改用自备导演skill，隔离目录保留；2026-11-20用户令EP2只按三份指定文件执行，其借用亦暂时搁置、不再引用。
 - **HeyChengC** — `~/memory/people/heychengc.md` — GitHub作者，vibe-knowledge-film skill的作者；用户2026-11-15发链接令试用结合，其讲解设计法已用于审计《一口泡面》，出片引擎与狼人线冲突未采用。
@@ -43,8 +43,9 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **付航** — `~/memory/people/fu-hang.md` — 脱口秀演员，红利兑现最成功，重心已切到现场首发、切片分发；专场票价260涨到580仍秒空。
 - **小叮当的一家** — `~/memory/people/xiao-dingdang-de-yijia.md` — 双胞胎家庭账号，双角色强反差撑全号、与阿派×阿满同构；童真峰值正在过去，主题已换成长大。
 - **多余和毛毛姐** — `~/memory/people/duoyu-he-maomaojie.md` — 方言搞笑账号，角色红利已到期；贵普配比与切换信号手艺仍可迁移，方言对白对台湾腔设计直接有用。
+- **锦鲤同学** — `~/memory/people/loi-jinli.md` — X 博主 loi_jinli，备份迁移方法的作者，用户 2026-11-19 采用其方法完成首次 new-account 备份；2026-11-24 其 Blender 简模母图法经走廊段实测，用户裁定不确定有效但这次视频可用，已作为候选工具推送给狼人会话备用；同日用户首次点名在第 10 场第一段启用四图喂法。
 - **赵星星的AI小剧场** — `~/memory/people/zhao-xingxing-ai-xiaojuchang.md` — 抖音AI短剧连载账号，用户2026-10-29列入剧本学习参考，2026-11-11用户明确不要该学习线、已作废。
 - **zysen1** — `~/memory/people/zysen1.md` — GitHub作者，batch-video-plugin批量生产工作流插件的作者；用户2026-11-18令严格测试后判「没有丝毫帮助」，已撤回删除，结论已推送至狼人会话并记为不再复测。
-- **锦鲤同学** — `~/memory/people/loi-jinli.md` — X 博主 loi_jinli，备份迁移方法的作者；用户 2026-11-19 采用其方法改写并完成首次 new-account 备份，旧账号亦采用同一套。
 - **D4Vinci** — `~/memory/people/d4vinci.md` — GitHub作者，Scrapling抓取库的作者；用户2026-11-01令学其方法并配备为助理基础技能，用于抓取学习用户指定的视频账号公开数据。
 - **imagineVid** — `~/memory/people/imaginevid.md` — GitHub作者，Awesome-muse-video-prompts-and-skills 仓库的作者；2026-11-21用户令严格按其提示词简报模板做特种部队对土匪巷战片段，首条交用户判后被判“不行”并撤销，测试线已停。
+- **kgmkm** — `~/memory/people/kgmkm.md` — GitHub作者，muse-grok-x-search 技能的作者；用户2026-11-24令安装测试，因 X 搜索在普通账号下跑不起来，用户判“没有用”并令删除，技能已删。
