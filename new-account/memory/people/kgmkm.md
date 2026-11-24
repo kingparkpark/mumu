@@ -1,7 +1,7 @@
 ---
 display_name: "kgmkm"
 summary: "GitHub作者，muse-grok-x-search 技能的作者；用户2026-11-24令安装测试，因 X 搜索在普通账号下跑不起来，用户判“没有用”并令删除，技能已删。"
-rank: 47
+rank: 49
 updated: "2026-11-24"
 ---
 

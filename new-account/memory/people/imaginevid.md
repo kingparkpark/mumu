@@ -1,7 +1,7 @@
 ---
 display_name: "imagineVid"
 summary: "GitHub作者，Awesome-muse-video-prompts-and-skills 仓库的作者；2026-11-21用户令严格按其提示词简报模板做特种部队对土匪巷战片段，首条交用户判后被判“不行”并撤销，测试线已停。"
-rank: 46
+rank: 48
 updated: "2026-11-21"
 ---
 
