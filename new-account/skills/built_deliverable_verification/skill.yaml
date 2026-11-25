@@ -1,0 +1,26 @@
+name: built_deliverable_verification
+title: Built deliverable verification
+description: Verify a built Space, artifact, or app by opening every export and exercising every claimed control before presenting it as finished, when you have just built or rebuilt one for the user.
+category: Creation
+include_in_prompt: true
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - message:60e0a55d
+  - message:64cf6b96
+  - message:77b8f7ab
+  - message:e4105058
+  - message:2d741a77
+  - message:fc970336
+  - message:24f38397
+  - message:4633609b
+  measurement:
+    proxy_metric_id: build_delivery_rework_rounds
+    success_criterion: Zero delivered Spaces, artifacts, or apps in the window reach the user with a core control that was never exercised or an export that was never opened, and every delivery states what was opened and clicked.
+    window_days: 21
+  needs_review: false
+  rationale: 'On 2026-11-24 the AI Video Workflow Space shipped and was reworked the same day because the first delivery was never verified by use: V1 admitted the exports were not opened one by one (message:64cf6b96), the canvas was a timeline list instead of a true node canvas (message:77b8f7ab), the user called it very unprofessional against the BeefTV reference (message:e4105058), status was set by hand (message:2d741a77), and there was no execute button at all (message:fc970336), until a full audit (message:4633609b) removed dead controls. No existing skill covers this: generated_video_delivery_check governs generated video only, and skill searches for deliverable and build verification returned no match. The new skill forces the missing step, open every export and exercise every claimed control, before a build is presented as finished. Consolidation was reviewed first: 12 active learned skills share no mergeable overlap, the script cluster covers distinct stages with distinct proxies and the delivery cluster covers distinct checks, so no retirement is proposed. The EP3 overnight film was checked and left alone because generated_video_delivery_check already forbids presenting a failed preview as finished and is inside its window to 2026-12-05.'
+  review_after: 2026-12-16T04:34:50.182696+00:00
+  reviewed_at: 2026-11-25T04:34:50.182696+00:00
+  run_id: sirun_9df51f20a1c346b4b05dcd997881e191

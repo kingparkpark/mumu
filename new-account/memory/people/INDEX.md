@@ -45,9 +45,10 @@ Every page under `~/memory/people/`, closest to the user first. Rendered by the 
 - **小叮当的一家** — `~/memory/people/xiao-dingdang-de-yijia.md` — 双胞胎家庭账号，双角色强反差撑全号、与阿派×阿满同构；童真峰值正在过去，主题已换成长大。
 - **多余和毛毛姐** — `~/memory/people/duoyu-he-maomaojie.md` — 方言搞笑账号，角色红利已到期；贵普配比与切换信号手艺仍可迁移，方言对白对台湾腔设计直接有用。
 - **glanderness** — `~/memory/people/glanderness.md` — GitHub 作者，BeefTV（AI 原生视频工作台）的作者；用户 2026-11-15 已在用其画布，2026-11-24 又令以 BeefTV 为范式把 AI 视频工作流空间的画布改成 Muse 专用。
-- **lufi-aq** — `~/memory/people/lufi-aq.md` — make.fun 已拿到 $43 的获奖选手，其完整实战指南的关键打法已被存入本地 playbook，正指导用户 2026-11-25 的新闻图参赛计划。
+- **lufi-aq** — `~/memory/people/lufi-aq.md` — make.fun 已拿到 $43 的获奖选手，其完整实战指南的关键打法已被存入本地 playbook；2026-11-25 新闻图已按其打法做成，用户建仓后进入提交阶段。
 - **D4Vinci** — `~/memory/people/d4vinci.md` — GitHub作者，Scrapling抓取库的作者；用户2026-11-01令学其方法并配备为助理基础技能，用于抓取学习用户指定的视频账号公开数据。
 - **赵星星的AI小剧场** — `~/memory/people/zhao-xingxing-ai-xiaojuchang.md` — 抖音AI短剧连载账号，用户2026-10-29列入剧本学习参考，2026-11-11用户明确不要该学习线、已作废。
 - **zysen1** — `~/memory/people/zysen1.md` — GitHub作者，batch-video-plugin批量生产工作流插件的作者；用户2026-11-18令严格测试后判「没有丝毫帮助」，已撤回删除，结论已推送至狼人会话并记为不再复测。
 - **imagineVid** — `~/memory/people/imaginevid.md` — GitHub作者，Awesome-muse-video-prompts-and-skills 仓库的作者；2026-11-21用户令严格按其提示词简报模板做特种部队对土匪巷战片段，首条交用户判后被判“不行”并撤销，测试线已停。
 - **kgmkm** — `~/memory/people/kgmkm.md` — GitHub作者，muse-grok-x-search 技能的作者；用户2026-11-24令安装测试，因 X 搜索在普通账号下跑不起来，用户判“没有用”并令删除，技能已删。
+- **青木@AI电商** — `~/memory/people/qingmu-ai-dianshang.md` — 抖音AI电商账号，用户2026-11-01发来其50秒数字人直播作品作TikTok美区无人直播的效果参照，定调要比该效果更生动；无直接往来。
