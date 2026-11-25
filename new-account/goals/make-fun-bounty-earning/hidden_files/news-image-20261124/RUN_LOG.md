@@ -34,3 +34,8 @@ Date-check traps caught and excluded: ICJ Rohingya ruling was 19 Nov (not 24th);
 2. On approval: push local commit, set repo About (website https://make.fun/bounty/news-image-20261124, topics makefun/ai-agents/bounties/code — same pattern as VM entry), then bundle + check + submit via kit CLI.
 3. Bundle dry-run findings (fix at submit time): needs --prompt-file (scheduled task text, --prompt-origin scheduled), --mcp none, --provider meta --model muse-spark-1.3 --effort default --harness/--harness-version flags, and --muse-usage <file> (usage rows attach only after this turn is delivered — copy from muse.db in the submit turn, as done for the VM entry).
 4. Timing: submit before 20:00 CST tonight (2026-11-25T12:00Z) to be judged in blind round 3; hard deadline 2026-11-26 08:00 CST.
+
+## 2026-11-26 01:42 CST status watch
+- status: scored, outcome not decided; all checks pass.
+- rounds: round 3 judged (14,561 ranked), our entry 124 / 740288 — same as already recorded 2026-11-25; no material change, no user message.
+- next: final round at 2026-11-26T00:00Z.

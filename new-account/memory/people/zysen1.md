@@ -1,7 +1,7 @@
 ---
 display_name: "zysen1"
 summary: "GitHub作者，batch-video-plugin批量生产工作流插件的作者；用户2026-11-18令严格测试后判「没有丝毫帮助」，已撤回删除，结论已推送至狼人会话并记为不再复测。"
-rank: 47
+rank: 49
 updated: "2026-11-18"
 ---
 

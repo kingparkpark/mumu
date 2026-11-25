@@ -1,7 +1,7 @@
 ---
 display_name: "D4Vinci"
 summary: "GitHub作者，Scrapling抓取库的作者；用户2026-11-01令学其方法并配备为助理基础技能，用于抓取学习用户指定的视频账号公开数据。"
-rank: 45
+rank: 47
 updated: "2026-11-20"
 ---
 

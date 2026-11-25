@@ -1,7 +1,7 @@
 ---
 display_name: "HeyChengC"
 summary: "GitHub作者，vibe-knowledge-film skill的作者；用户2026-11-15发链接令试用结合，其讲解设计法已用于审计《一口泡面》，出片引擎与狼人线冲突未采用。"
-rank: 20
+rank: 22
 updated: "2026-11-18"
 ---
 

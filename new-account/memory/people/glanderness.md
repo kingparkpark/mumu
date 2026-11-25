@@ -1,7 +1,7 @@
 ---
 display_name: "glanderness"
 summary: "GitHub 作者，BeefTV（AI 原生视频工作台）的作者；用户 2026-11-15 已在用其画布，2026-11-24 又令以 BeefTV 为范式把 AI 视频工作流空间的画布改成 Muse 专用。"
-rank: 43
+rank: 45
 updated: "2026-11-24"
 ---
 
