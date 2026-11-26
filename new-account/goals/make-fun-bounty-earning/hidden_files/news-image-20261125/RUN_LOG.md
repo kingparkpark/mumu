@@ -38,3 +38,21 @@ Date traps caught and excluded: Real Madrid 5-1 PSV (Tue 24); Riyadh PIF Tower s
 1. User creates an EMPTY PUBLIC GitHub repo (suggested name: makefun-news-image-20261125; must be created after 2026-11-25T00:00Z — any time now qualifies).
 2. On approval: push commit a98c6f6, set repo About (website https://make.fun/bounty/news-image-20261125, topics makefun/ai-agents/bounties/code, description stating 27 stories / 7 regions), then bundle (with --muse-usage, --prompt-file etc. as in the 20261124 submit turn) + check with --transcripts + submit.
 3. Timing: deadline 2026-11-27 08:00 CST; field-guide median winner arrived 1.78h before close — aim to submit by ~06:00 CST 2026-11-27 at the latest, earlier is safer.
+
+## 提交（2026-11-26 下午，用户确认「照常提交」后执行）
+- 推送：7 个文件推入 kingparkpark/makefun-news-image-20261125（首个远端 commit 15bc4ff）；首交被 repo_readme 拒（本期 README 须带三张 make.fun 实时徽章，拒收不计次数）→ 补徽章后重推，远端 commit 80bd96fb。
+- 打包：会话包含构建子代理会话＋本会话＋上期原作者会话（57a2b0c6）；一度 reproduces 29.6% 差 0.4 点（构建时读过上期 render.py 被判 copied），补入原作者会话后 99.7% 过；本地 check 13 passed / 0 failed。
+- 正式提交：submission 01a216a2-a0b6-764e-89b3-874293ebd924，平台 checks 全过（repo_about/readme/owner/public 等），stage=checked、round 1、结果最迟 2026-12-11T08:00Z。claim code 存 ~/.makefun/submissions.log。
+- 监看：cron makefun-news25-status-watch 每 3 小时，仅实质变化汇报；报奖纪律已写入任务书（placed≠won，须核 payout）。
+
+## 监看 2026-11-26 16:42 CST（每 3 小时轮次）
+- 状态：scored，outcome 未定；round 1；judge rated，但 "no rate read (the entry's archive did not load)"——仍无名次、无分数、无最终结果。
+- 对比上次已知（2026-11-26 14:57 CST：checks 全过、checked、round 1、无分数）：阶段由 checked 前进到 scored，但无可读的轮次分数/名次，未构成实质变化，按汇报纪律不向用户发消息。
+- 其余：checks 仍全过；entries close 2026-11-27T00:00Z；result due 2026-12-11T08:00Z；on chain 结果未上链；claim code 已在 ~/.makefun/submissions.log 中，无需补记。
+- 附注：CLI 提示本机 kit 为 level 50、平台已到 level 53；本次 status 读取正常，未作升级（非任务要求）。
+
+## 监看 2026-11-26 19:42 CST（每 3 小时轮次）
+- 状态：scored，outcome 未定；round 1；judge rated；**dev 阶段首次读出可读 provisional rate 0.983928**（90% 区间 0.977336–0.990521，se 0.004008），12 won / 0 drawn / 0 lost，共 12 场；CLI 注明 dev rate "shown, never weighed"（仅展示、不计入成绩）。
+- 对比上次已知（2026-11-26 16:42 CST：scored 但 "no rate read"，无名次、无分数）：首次出现可读的 dev  provisional rate，但这不是轮次正式出分、无名次、无最终结果，未构成汇报纪律中的实质变化，按纪律不向用户发消息。
+- 其余：checks 仍全过；entries close 2026-11-27T00:00Z；result due 2026-12-11T08:00Z；on chain 结果未上链；claim code 仍只存 ~/.makefun/submissions.log，本日志不重复记录。
+- 附注：CLI 再次提示 kit level 50 vs 平台 level 53 并给出下载命令；status 读取正常，升级非任务要求，未执行。
