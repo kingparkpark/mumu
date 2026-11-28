@@ -1,0 +1,28 @@
+name: pointed_correction_scope
+title: Keep a pointed correction scoped
+description: Keep a user correction scoped to the span it pointed at across scripts, images, video and standing rules, and record a general rule only when the user made it general.
+category: Writing
+include_in_prompt: true
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - message:5dfec766-b252-4d82-b9e5-97c720409bab
+  - message:b1c4fda2-ab62-4c8f-9fb4-ff51062d9e9a
+  - message:82b47e76-f6bc-4f3b-b9af-95e03033ba1f
+  - message:fff852d3
+  - message:f9be92e6-96f6-40d3-a83d-0b6a5aeb8c43
+  - message:849b1950-675d-441e-b015-8914e557a8c9
+  - message:ff0e7ef1
+  - message:2c021beb
+  - message:6b308dbd-fa31-4d39-a4bc-0a1612625a9b
+  - 763302c7
+  measurement:
+    proxy_metric_id: pointed_correction_scope_corrections
+    success_criterion: Zero delivered revisions in the window are corrected by the user for changing material outside the pointed span or for turning a local correction into a standing rule, and every revision lists its pointed span and its changed spans.
+    window_days: 21
+  needs_review: false
+  rationale: 'With 13 active learned skills the consolidation gate applies. correction_stays_local and script_surgical_revision split one discipline, pointed-span scope, by surface, and neither named image or design work. On 2026-11-26 the EP3 cosmic cue loop violated that discipline repeatedly while both skills were in force and include_in_prompt true: flatness was applied to the tip instead of the grip, a concave step was made where a flat slope was asked for, the whole grip was bent where only the grip-to-housing joint needed an arc, and the tail end was reworked although the user never mentioned it (messages 5dfec766, b1c4fda2, 82b47e76, fff852d3, f9be92e6, 849b1950, ff0e7ef1, 2c021beb, 6b308dbd). The merged skill preserves both prior mechanisms, the general-versus-local test with quoted general wording and the pointed-span list with span-by-span proof, and extends the span naming to image and design regions, which is the uncovered surface that produced this loop. Both superseded skills are past their measurement windows (review_after 2026-11-26 and 2026-11-23), so merging now does not disturb an active measurement window. Other clusters were reviewed and left unmerged: the video cluster (delivery check, iteration escalation, generation retry) and the script cluster (canon provenance, first gate, density budget, shot director) cover distinct stages with distinct proxies, and generation_iteration_escalation and generated_video_delivery_check remain inside their windows to 2026-12-12 and 2026-12-05, so the Scene 14 retry pattern was not used to amend them.'
+  review_after: 2026-12-18T04:39:53.807536+00:00
+  reviewed_at: 2026-11-27T04:39:53.807536+00:00
+  run_id: sirun_2e402863c3ec457f9e547b6ae49f63c0

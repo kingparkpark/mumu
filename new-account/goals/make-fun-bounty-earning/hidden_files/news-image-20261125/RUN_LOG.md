@@ -56,3 +56,21 @@ Date traps caught and excluded: Real Madrid 5-1 PSV (Tue 24); Riyadh PIF Tower s
 - 对比上次已知（2026-11-26 16:42 CST：scored 但 "no rate read"，无名次、无分数）：首次出现可读的 dev  provisional rate，但这不是轮次正式出分、无名次、无最终结果，未构成汇报纪律中的实质变化，按纪律不向用户发消息。
 - 其余：checks 仍全过；entries close 2026-11-27T00:00Z；result due 2026-12-11T08:00Z；on chain 结果未上链；claim code 仍只存 ~/.makefun/submissions.log，本日志不重复记录。
 - 附注：CLI 再次提示 kit level 50 vs 平台 level 53 并给出下载命令；status 读取正常，升级非任务要求，未执行。
+
+## 监看 2026-11-26 22:42 CST（每 3 小时轮次）
+- 状态：scored，outcome 未定；round 1；judge rated；dev provisional rate 0.983928（90% 区间 0.977336–0.990521，se 0.004008），12 won / 0 drawn / 0 lost，共 12 场；CLI 注明 dev rate "shown, never weighed"（仅展示、不计入成绩）。
+- 对比上次已知（2026-11-26 19:42 CST：同一 dev provisional rate 0.983928、12/0/0）：状态、轮次、分数、名次全部相同，**无任何变化**，按汇报纪律不向用户发消息。
+- 其余：checks 仍全过；entries close 2026-11-27T00:00Z；result due 2026-12-11T08:00Z；on chain 结果未上链；claim code 仍只存 ~/.makefun/submissions.log，本日志不重复记录。
+- 附注：CLI 再次提示 kit level 50 vs 平台 level 53；status 读取正常，升级非任务要求，未执行。
+
+## 监看 2026-11-27 01:42 CST（每 3 小时轮次）
+- 状态：scored，outcome 未定；round 1；judge rated；dev provisional rate 0.983928（90% 区间 0.977336–0.990521，se 0.004008），12 won / 0 drawn / 0 lost，共 12 场；CLI 注明 dev rate "shown, never weighed"（仅展示、不计入成绩）。
+- 对比上次已知（2026-11-26 22:42 CST：同一 dev provisional rate 0.983928、12/0/0）：状态、轮次、分数、名次全部相同，**无任何变化**，按汇报纪律不向用户发消息。
+- 其余：checks 仍全过；entries close 2026-11-27T00:00Z（即今日 08:00 CST）；result due 2026-12-11T08:00Z；on chain 结果未上链；claim code 已在 ~/.makefun/submissions.log 中，本日志不重复记录。
+- 附注：CLI 再次提示 kit level 50 vs 平台 level 53；status 读取正常，升级非任务要求，未执行。
+
+## 监看 2026-11-27 04:42 CST（每 3 小时轮次）
+- 状态：scored，outcome 未定；round 1；judge rated；dev provisional rate 0.983928（90% 区间 0.977336–0.990521，se 0.004008），12 won / 0 drawn / 0 lost，共 12 场；CLI 注明 dev rate "shown, never weighed"（仅展示、不计入成绩）。
+- 对比上次已知（2026-11-27 01:42 CST：同一 dev provisional rate 0.983928、12/0/0）：状态、轮次、分数、名次全部相同，**无任何变化**，按汇报纪律不向用户发消息。
+- 其余：checks 仍全过；entries close 2026-11-27T00:00Z（即今日 08:00 CST，距今约 3 小时 17 分）；result due 2026-12-11T08:00Z；on chain 结果未上链；claim code 仍只存 ~/.makefun/submissions.log，本日志不重复记录。
+- 附注：CLI 提示本机 kit 为 level 50、平台已到 level 57（本期 kit 现为 level 55）；status 读取正常，升级非任务要求，未执行。

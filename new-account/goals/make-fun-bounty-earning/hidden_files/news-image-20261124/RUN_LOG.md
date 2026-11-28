@@ -39,3 +39,8 @@ Date-check traps caught and excluded: ICJ Rohingya ruling was 19 Nov (not 24th);
 - status: scored, outcome not decided; all checks pass.
 - rounds: round 3 judged (14,561 ranked), our entry 124 / 740288 — same as already recorded 2026-11-25; no material change, no user message.
 - next: final round at 2026-11-26T00:00Z.
+
+## 2026-11-27 04:42 CST status watch
+- status: scored, outcome placed; all checks pass.
+- rounds: round 3 judged (14,561 ranked), our entry 124 / 740288 — same as already recorded 2026-11-25; final round 4 results not yet published (due by 2026-12-10T08:00Z).
+- action: no material change, no user message.

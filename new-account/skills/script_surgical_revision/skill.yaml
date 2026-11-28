@@ -5,24 +5,18 @@ category: Writing
 include_in_prompt: true
 skill_improvement:
   managed: true
-  status: active
+  status: retired
   evidence_handles:
-  - '33555e16'
-  - 74a0b2d3
-  - 17899ba9
-  - 25bbca27
-  - 35836dad
-  - dd58af53
-  - 903a53
-  - f54dee1e
-  - c9278e2a
-  - ~/MEMORY.md
+  - message:5dfec766-b252-4d82-b9e5-97c720409bab
+  - message:b1c4fda2-ab62-4c8f-9fb4-ff51062d9e9a
+  - message:82b47e76-f6bc-4f3b-b9af-95e03033ba1f
+  - message:f9be92e6-96f6-40d3-a83d-0b6a5aeb8c43
   measurement:
-    proxy_metric_id: script_revision_scope_corrections
-    success_criterion: Zero delivered script revisions in the window are corrected by the user for changing, adding, deleting, or reordering material outside the correction the user pointed at, and every revision lists its pointed span and its changed spans.
+    proxy_metric_id: retired_skill_active_discovery
+    success_criterion: The retired skill does not appear in active skill discovery and no later session cites it as guidance during the window.
     window_days: 21
   needs_review: false
-  rationale: 'On 2026-11-01 a pointed correction repeatedly widened into an unrequested revision: six new characters were stocked in one reply and rejected, and a question about a note became a rewritten line plus an added passage, followed by several rounds in which the user narrowed the scope, rejected the added passage, and then said the original passage was fine. The existing script_canon_provenance_check governs whether a new element has an approved source and generated_video_delivery_check governs a finished video, but neither governs edit scope in an already delivered document, so even sourced material can be rewritten without being pointed at. This skill closes that distinct gap with a pointed-span list, a ban on touching unlisted spans, and a span-by-span scope proof plus full-document delivery in the same reply.'
-  review_after: 2026-11-23T08:05:38.343841+00:00
-  reviewed_at: 2026-11-02T08:05:38.343841+00:00
-  run_id: sirun_1e8276e6e4844c19923ccfb37ee2ddc1
+  rationale: Superseded by the merged pointed_correction_scope skill in the same batch, which preserves its pointed-span list, its ban on touching unlisted spans and its span-by-span scope proof with full-document delivery. Retiring it removes the duplicate discovery entry for the same pointed-correction discipline.
+  review_after: 2026-12-18T04:39:53.807536+00:00
+  reviewed_at: 2026-11-27T04:39:53.807536+00:00
+  run_id: sirun_2e402863c3ec457f9e547b6ae49f63c0
