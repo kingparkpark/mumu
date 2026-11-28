@@ -74,3 +74,11 @@ Date traps caught and excluded: Real Madrid 5-1 PSV (Tue 24); Riyadh PIF Tower s
 - 对比上次已知（2026-11-27 01:42 CST：同一 dev provisional rate 0.983928、12/0/0）：状态、轮次、分数、名次全部相同，**无任何变化**，按汇报纪律不向用户发消息。
 - 其余：checks 仍全过；entries close 2026-11-27T00:00Z（即今日 08:00 CST，距今约 3 小时 17 分）；result due 2026-12-11T08:00Z；on chain 结果未上链；claim code 仍只存 ~/.makefun/submissions.log，本日志不重复记录。
 - 附注：CLI 提示本机 kit 为 level 50、平台已到 level 57（本期 kit 现为 level 55）；status 读取正常，升级非任务要求，未执行。
+
+## 监看 2026-11-28 20:10 CST（每 3 小时轮次；定时 19:42，实际执行 20:10）
+- 状态：scored，**outcome 由「未定」变为 placed**；round 1；checks 仍全过；next steps：nothing to do now。
+- 对比上次已知（2026-11-27 04:42 CST：scored、outcome 未定、dev provisional rate 0.983928、12/0/0）：**outcome 首次变为 placed，构成名次状态变化**——从无名次到有正式名次。但 CLI 本次未给出具体名次数字、无轮次分数、无最终结果；且本次输出不再显示 dev provisional rate（旧 kit level 50 vs 平台 level 63、本期 kit level 58，旧 kit 可能解析不全；升级非任务要求，未执行）。
+- 其余：entries 已关闭（2026-11-27T00:00Z）；final window 已开始（2026-11-27T00:00Z）；result due 2026-12-11T08:00Z；claim deadline 2026-12-27T05:31:29Z；链上已有 result 与 payout root（此前日志记「未上链」，本次输出显示 escrow 已上链且 claimable——仅为链上承诺值，未读出本条目是否在 payout 内，不作中奖判断）。
+- 汇报判断：outcome 变化属于汇报纪律中的名次变化，**向用户汇报一次**，措辞明确：placed 只是有正式名次、不等于中奖；未见名次数字与 payout，未核 payout，不报中奖；最终结果最迟 2026-12-11T08:00Z 公布。
+- claim code：CLI 本次输出中有显示；按规矩不记入本日志、不打印；已确认 ~/.makefun/submissions.log 中已有 claim code 记录。
+- 附注：CLI 再次提示 kit level 50 vs 平台 level 63 并给出下载命令；status 读取正常，升级非任务要求，未执行。

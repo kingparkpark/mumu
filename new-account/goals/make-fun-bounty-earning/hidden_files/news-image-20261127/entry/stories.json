@@ -1,0 +1,498 @@
+{
+ "briefs": [
+  {
+   "city": "Riga",
+   "n": 14,
+   "region": "EUROPE",
+   "src": "Latvia forces",
+   "tag": "CONFIRMED",
+   "text": "Drone enters Latvian airspace"
+  },
+  {
+   "city": "Kyiv",
+   "n": 15,
+   "region": "EUROPE",
+   "src": "Ukr. Gen. Staff",
+   "tag": "REPORTED",
+   "text": "Strikes cut refining to a 20-year low"
+  },
+  {
+   "city": "Warsaw",
+   "n": 16,
+   "region": "EUROPE",
+   "src": "Polish officials",
+   "tag": "REPORTED",
+   "text": "Poland weighs border no-fly zone"
+  },
+  {
+   "city": "Kuwait",
+   "n": 17,
+   "region": "MIDDLE EAST",
+   "src": "Wires",
+   "tag": "REPORTED",
+   "text": "Drone strike kills 2 Italians"
+  },
+  {
+   "city": "Damascus",
+   "n": 18,
+   "region": "MIDDLE EAST",
+   "src": "Syrian authorities",
+   "tag": "OFFICIAL",
+   "text": "Syria seizes 783,000 Captagon pills"
+  },
+  {
+   "city": "Jerusalem",
+   "n": 19,
+   "region": "MIDDLE EAST",
+   "src": "Wires",
+   "tag": "REPORTED",
+   "text": "Netanyahu: trial 'fallen apart'"
+  },
+  {
+   "city": "Pretoria",
+   "n": 20,
+   "region": "AFRICA",
+   "src": "Const. Court",
+   "tag": "CONFIRMED",
+   "text": "Top court dismisses health-law bid"
+  },
+  {
+   "city": "Tillabéri, Niger",
+   "n": 21,
+   "region": "AFRICA",
+   "src": "Defence min.",
+   "tag": "REPORTED",
+   "text": "Guard post attack kills 13"
+  },
+  {
+   "city": "Addis Ababa",
+   "n": 22,
+   "region": "AFRICA",
+   "src": "Parliament address",
+   "tag": "REPORTED",
+   "text": "Abiy accuses Eritrea of arming foes"
+  },
+  {
+   "city": "Pyongyang",
+   "n": 23,
+   "region": "EAST ASIA",
+   "src": "Wires",
+   "tag": "REPORTED",
+   "text": "N. Korea shuts Swiss office"
+  },
+  {
+   "city": "Shanghai",
+   "n": 24,
+   "region": "EAST ASIA",
+   "src": "Market data",
+   "tag": "CONFIRMED",
+   "text": "Stocks jump 3.74% worldwide"
+  },
+  {
+   "city": "Seoul",
+   "n": 25,
+   "region": "EAST ASIA",
+   "src": "Wires",
+   "tag": "REPORTED",
+   "text": "Unification nominee vows realism"
+  },
+  {
+   "city": "West Java",
+   "n": 26,
+   "region": "SE ASIA",
+   "src": "Local authorities",
+   "tag": "REPORTED",
+   "text": "Search called off for missing miners"
+  },
+  {
+   "city": "Kuala Lumpur",
+   "n": 27,
+   "region": "SE ASIA",
+   "src": "MCMC · e27",
+   "tag": "REPORTED",
+   "text": "Regulator sues Google for $145.8m"
+  },
+  {
+   "city": "Kuala Lumpur",
+   "n": 28,
+   "region": "SE ASIA",
+   "src": "AirAsia",
+   "tag": "REPORTED",
+   "text": "AirAsia delays pay; PH unit cuts jobs"
+  },
+  {
+   "city": "Islamabad",
+   "n": 29,
+   "region": "SOUTH ASIA",
+   "src": "Wires",
+   "tag": "REPORTED",
+   "text": "Aleema Khan ruling delayed again"
+  },
+  {
+   "city": "New Delhi",
+   "n": 30,
+   "region": "SOUTH ASIA",
+   "src": "Joint stmt",
+   "tag": "OFFICIAL",
+   "text": "India, EU back Ukraine peace deal"
+  },
+  {
+   "city": "Washington",
+   "n": 31,
+   "region": "N. AMERICA",
+   "src": "Census Bureau",
+   "tag": "OFFICIAL",
+   "text": "Goods deficit hits record $149.5bn"
+  },
+  {
+   "city": "Washington",
+   "n": 32,
+   "region": "N. AMERICA",
+   "src": "Wires",
+   "tag": "REPORTED",
+   "text": "Trump would welcome Putin at G20"
+  },
+  {
+   "city": "Ottawa",
+   "n": 33,
+   "region": "N. AMERICA",
+   "src": "DesRosiers",
+   "tag": "REPORTED",
+   "text": "US share of car imports now 40%"
+  },
+  {
+   "city": "Mexico City",
+   "n": 34,
+   "region": "LATIN AMERICA",
+   "src": "Mexican govt",
+   "tag": "OFFICIAL",
+   "text": "Protests US DEA tip line"
+  },
+  {
+   "city": "Brasília",
+   "n": 35,
+   "region": "LATIN AMERICA",
+   "src": "Wires",
+   "tag": "REPORTED",
+   "text": "Budget panel backs $370m cut"
+  },
+  {
+   "city": "Tegucigalpa",
+   "n": 36,
+   "region": "LATIN AMERICA",
+   "src": "Police · DEA",
+   "tag": "REPORTED",
+   "text": "Two held over Clan del Golfo ties"
+  },
+  {
+   "city": "Pacific pact",
+   "n": 37,
+   "region": "GLOBAL",
+   "src": "Nikkei Asia",
+   "tag": "OFFICIAL",
+   "text": "CPTPP opens accession talks"
+  },
+  {
+   "city": "Antarctica",
+   "n": 38,
+   "region": "GLOBAL",
+   "src": "Wires",
+   "tag": "REPORTED",
+   "text": "Team to hunt 1.5m-year-old ice"
+  }
+ ],
+ "date_check": "Left out, because they happened on other days: Taiwan's nine-in-one local elections are held Sat 28 Nov · Spain votes Sun 29 Nov · Indonesia's vice-president resigned Thu 26 Nov · Bangkok's Bangchak refinery fire was Thu 26 Nov · Norse Atlantic halted its flights Thu 26 Nov. Every story above happened, or was first reported, on Friday 27 November 2026 (UTC).",
+ "date_long": "Friday 27 November 2026",
+ "date_short": "FRI 27 NOV 2026",
+ "map_pins": [
+  [
+   58,
+   24
+  ],
+  [
+   4.3,
+   50.8
+  ],
+  [
+   30.5,
+   50.4
+  ],
+  [
+   -75,
+   40
+  ],
+  [
+   29,
+   1.5
+  ],
+  [
+   40.1,
+   -3.2
+  ],
+  [
+   34.3,
+   31.5
+  ],
+  [
+   77.2,
+   28.6
+  ],
+  [
+   174.8,
+   -41.3
+  ],
+  [
+   -3.7,
+   40.4
+  ],
+  [
+   116.4,
+   39.9
+  ],
+  [
+   -47.9,
+   -15.8
+  ],
+  [
+   96.1,
+   19.8
+  ]
+ ],
+ "panels": [
+  {
+   "art": "ship",
+   "banner": "BLOCKADE RUNNER STOPPED",
+   "headline": "US jet disables second Iran-blockade runner",
+   "kicker": "GULF OF OMAN · SECURITY",
+   "n": 1,
+   "region": "MIDDLE EAST",
+   "sources": "CENTCOM · AP · Reuters",
+   "summary": "CENTCOM says a jet hit the stern of the Palau-flagged Pacific Archer after it ran the blockade. Iran claims commandos retook two seized tankers — unconfirmed.",
+   "tag": "REPORTED"
+  },
+  {
+   "art": "flags",
+   "banner": "NO DEAL IN BRUSSELS",
+   "headline": "EU summit ends with no deal on budget or Ukraine loan",
+   "kicker": "BRUSSELS · EU SUMMIT",
+   "n": 2,
+   "region": "EUROPE",
+   "sources": "Xinhua · AP · Reuters",
+   "summary": "Leaders leave the €1.6tn 2028–34 budget and a €45bn Ukraine loan unresolved. Macron sets a year-end deadline; talks resume on 17–18 December.",
+   "tag": "OFFICIAL"
+  },
+  {
+   "art": "mic",
+   "banner": "'STRANGE' FRIENDSHIP",
+   "headline": "Zelensky: Trump's Putin 'friendship' is strange",
+   "kicker": "KYIV / WASHINGTON · WAR TALKS",
+   "n": 3,
+   "region": "EUROPE",
+   "sources": "BBC · AP",
+   "summary": "In a BBC interview Zelensky questions the label as Kyiv offers a Black Sea ceasefire. Trump answers that he wants a deal, not a feud.",
+   "tag": "CONFIRMED"
+  },
+  {
+   "art": "storm",
+   "banner": "POWER OUT AFTER STORMS",
+   "headline": "Storms leave 100,000s dark",
+   "kicker": "EASTERN US · WEATHER",
+   "n": 4,
+   "region": "N. AMERICA",
+   "sources": "AP · Reuters",
+   "summary": "Storms hit both US coasts over the holiday. Hundreds of thousands of homes were still dark on Friday.",
+   "tag": "REPORTED"
+  },
+  {
+   "art": "cross",
+   "banner": "12,000 CASES",
+   "headline": "Congo Ebola cases pass 12,000",
+   "kicker": "ITURI, DR CONGO · HEALTH",
+   "n": 5,
+   "region": "AFRICA",
+   "sources": "WHO · wires",
+   "summary": "Cases pass 12,000 in the second-largest outbreak on record. Fighting in Ituri has trapped response teams.",
+   "tag": "REPORTED"
+  },
+  {
+   "art": "gavel",
+   "banner": "GUILTY: 123 MORE DEATHS",
+   "headline": "Cult leader convicted over 123 more deaths",
+   "kicker": "MALINDI, KENYA · JUSTICE",
+   "n": 6,
+   "region": "AFRICA",
+   "sources": "Court reports · wires",
+   "summary": "A Kenyan court finds Paul Mackenzie guilty of manslaughter. Hundreds more deaths were already laid to his doomsday cult.",
+   "tag": "CONFIRMED"
+  },
+  {
+   "art": "city",
+   "banner": "GAZA STRIKES",
+   "headline": "Israeli strikes kill four in Gaza",
+   "kicker": "GAZA CITY · CONFLICT",
+   "n": 7,
+   "region": "MIDDLE EAST",
+   "sources": "Wires · OneTurn",
+   "summary": "Israeli attacks kill at least four Palestinians on Friday. The son of Hamas's chief reportedly survived.",
+   "tag": "REPORTED"
+  },
+  {
+   "art": "phone",
+   "banner": "164 SET FREE",
+   "headline": "Police free 164 from cyber-fraud gang",
+   "kicker": "DELHI, INDIA · CRIME",
+   "n": 8,
+   "region": "SOUTH ASIA",
+   "sources": "Reuters",
+   "summary": "Delhi police rescue 92 Indonesians and 72 Malaysians. They were confined in a suburb and forced to run online scams.",
+   "tag": "REPORTED"
+  },
+  {
+   "art": "ballot",
+   "banner": "ONE SEAT SHORT",
+   "headline": "Final count: NZ bloc one seat short",
+   "kicker": "WELLINGTON · ELECTION",
+   "n": 9,
+   "region": "OCEANIA",
+   "sources": "Electoral Commission · wires",
+   "summary": "Final results leave PM Luxon's bloc one seat below a majority. He turns to the centrist Opportunity Party for a deal.",
+   "tag": "OFFICIAL"
+  },
+  {
+   "art": "podium",
+   "banner": "FINAL DEBATE",
+   "headline": "Spain's leaders clash in final debate",
+   "kicker": "MADRID · ELECTION",
+   "n": 10,
+   "region": "EUROPE",
+   "sources": "Wires · webindia123",
+   "summary": "Sánchez's Socialists trail the conservative PP in polls. Far-right Vox eyes a kingmaker role on Sunday.",
+   "tag": "REPORTED"
+  },
+  {
+   "art": "book",
+   "banner": "DEFENCE IN THE CLASSROOM",
+   "headline": "China sets defence-education plan",
+   "kicker": "BEIJING · DEFENCE",
+   "n": 11,
+   "region": "EAST ASIA",
+   "sources": "AJP · wires",
+   "summary": "Defence education expands to students and gig workers. Lessons link to military recruitment campaigns.",
+   "tag": "OFFICIAL"
+  },
+  {
+   "art": "coin",
+   "banner": "NEW FINANCE CHIEF",
+   "headline": "Lula names Trabuco Cappi finance chief",
+   "kicker": "BRASÍLIA · POLITICS",
+   "n": 12,
+   "region": "LATIN AMERICA",
+   "sources": "Presidential office · wires",
+   "summary": "Lula picks Bradesco chairman Trabuco Cappi for the job. The presidential office announced the choice on Thursday.",
+   "tag": "OFFICIAL"
+  },
+  {
+   "art": "scale",
+   "banner": "ICJ ORDER REFUSED",
+   "headline": "Myanmar chief refuses ICJ order",
+   "kicker": "NAYPYIDAW · JUSTICE",
+   "n": 13,
+   "region": "SE ASIA",
+   "sources": "AJP · wires",
+   "summary": "Min Aung Hlaing says some ICJ measures will not be carried out. The order covers protection of the Rohingya.",
+   "tag": "REPORTED"
+  }
+ ],
+ "region_counts": [
+  [
+   "EUROPE",
+   6
+  ],
+  [
+   "MIDDLE EAST",
+   5
+  ],
+  [
+   "AFRICA",
+   5
+  ],
+  [
+   "EAST ASIA",
+   4
+  ],
+  [
+   "SE ASIA",
+   4
+  ],
+  [
+   "SOUTH ASIA",
+   3
+  ],
+  [
+   "N. AMERICA",
+   4
+  ],
+  [
+   "LATIN AMERICA",
+   4
+  ],
+  [
+   "OCEANIA",
+   1
+  ],
+  [
+   "GLOBAL",
+   2
+  ]
+ ],
+ "stats": [
+  [
+   "12,000",
+   "Ebola cases passed in DR Congo; 5,900 dead"
+  ],
+  [
+   "$149.5bn",
+   "US October goods trade deficit; imports a record"
+  ],
+  [
+   "123",
+   "more deaths in Kenya cult leader's conviction"
+  ],
+  [
+   "164",
+   "people freed from a Delhi cyber-fraud gang"
+  ],
+  [
+   "+3.74%",
+   "Shanghai stocks lead a worldwide rise"
+  ],
+  [
+   "783,000",
+   "Captagon pills seized by Syrian authorities"
+  ]
+ ],
+ "strapline": "US jet stops an Iran-blockade runner · EU summit ends with no deal · Zelensky questions Trump's 'friendship' with Putin",
+ "timeline": [
+  [
+   "OVERNIGHT",
+   "US jet stops runner"
+  ],
+  [
+   "07:03",
+   "Macron warns Ukraine"
+  ],
+  [
+   "09:07",
+   "EU: no €45bn loan deal"
+  ],
+  [
+   "16:46",
+   "Zelenskyy on 'friendship'"
+  ],
+  [
+   "21:53",
+   "Flotilla turns from Libya"
+  ]
+ ],
+ "total": 38
+}
